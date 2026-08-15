@@ -3,47 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Iter Italicum：義大利行旅紀錄</title>
+  <title>MALAYSIA GP : Travel Handbook</title>
 
-  <!-- ✅ 正確載入 CSS -->
+  <!-- Google Fonts: 賽車運動科技感字體 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800;900&family=Racing+Sans+One&family=Teko:wght@600;700&family=Noto+Sans+TC:wght@500;700;900&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>Iter Italicum：義大利行旅紀錄</h1>
+  <div id="app">
+    <!-- F1 Style Header -->
+    <header class="site-header">
+      <div class="f1-badge">
+        <span class="flag">🇲🇾</span> MALAYSIA GRAND PRIX
+      </div>
+      <h1>MALAYSIA GP</h1>
+      <p class="tagline">2026 TRAVEL TELEMETRY & GUIDE</p>
+      <div class="stripe-bar"></div>
+    </header>
 
-  <!-- Day 分頁 -->
-  <div id="tabs">
-    <button data-day="intro" class="active">Intro</button>
-    <button data-day="day1">Day 1-0718</button>
-    <button data-day="day2">Day 2-0719</button>
-    <button data-day="day3">Day 3-0720</button>
-    <button data-day="day4">Day 4-0721</button>
-    <button data-day="day5">Day 5-0722</button>
-    <button data-day="day6">Day 6-0723</button>
-    <button data-day="day7">Day 7-0724</button>
-    <button data-day="day8">Day 8-0725</button>
-    <button data-day="day9">Day 9-0726</button>
-    <button data-day="day10">Day 10-0727</button>
-    <button data-day="day11">Day 11-0728</button>
-    <button data-day="day12">Day 12-0729</button>
-    <button data-day="day13">Day 13-0730</button>
+    <!-- Day 分頁 (Sectors / Days) -->
+    <nav id="tabs" class="scroll-nav">
+      <button data-day="intro" class="active">BRIEFING</button>
+      <button data-day="day1">DAY 1 - 0718</button>
+      <button data-day="day2">DAY 2 - 0719</button>
+      <button data-day="day3">DAY 3 - 0720</button>
+      <button data-day="day4">DAY 4 - 0721</button>
+      <button data-day="day5">DAY 5 - 0722</button>
+      <button data-day="day6">DAY 6 - 0723</button>
+      <button data-day="day7">DAY 7 - 0724</button>
+    </nav>
+
+    <!-- 類型篩選 (Pit Stops / Categories) -->
+    <nav id="filters" class="scroll-nav">
+      <button data-type="all" class="active">🏁 ALL LABS</button>
+      <button data-type="attraction">🏛️ SIGHTS</button>
+      <button data-type="restaurant">🍜 FOOD PIT</button>
+      <button data-type="transportation">🏎️ TRANSIT</button>
+      <button data-type="accommodation">🏨 HOTEL BASE</button>
+      <button data-type="store">🛍️ SHOPPING</button>
+    </nav>
+
+    <!-- 主卡片清單 -->
+    <main id="list"></main>
   </div>
 
-  <!-- 類型篩選 -->
-  <div id="filters">
-    <button data-type="all" class="active">全部</button>
-    <button data-type="attraction">景點</button>
-    <button data-type="restaurant">餐廳</button>
-    <button data-type="transportation">交通</button>
-    <button data-type="accommodation">住宿</button>
-    <button data-type="store">店鋪</button>
-  </div>
-
-  <!-- 卡片清單 -->
-  <div id="list"></div>
-
-  <!-- ✅ 正確載入 JS -->
   <script src="script.js"></script>
 </body>
 </html>
