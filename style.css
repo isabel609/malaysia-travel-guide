@@ -1,242 +1,267 @@
 /* ============================================================
-   義大利文藝復興風格色彩配置 (整合優化版)
+   F1 MALAYSIA RACING THEME
    ============================================================ */
 
-/* 基礎設定：羊皮紙與大理石質感 */
+:root {
+  --f1-red: #e10600;
+  --f1-red-dark: #b00000;
+  --f1-black: #15151e;
+  --f1-dark-card: #1f1f2c;
+  --f1-dark-border: #2b2b3d;
+  --f1-text: #ffffff;
+  --f1-text-muted: #9494a8;
+  --f1-yellow: #ff1801;
+  --f1-green: #00d2be; /* Mercedes green highlight */
+  --font-racing: 'Orbitron', 'Teko', sans-serif;
+  --font-body: 'Noto Sans TC', sans-serif;
+}
+
 body {
-  font-family: "Georgia", "serif", "Noto Serif TC";
+  font-family: var(--font-body);
   margin: 0;
-  padding: 12px;
-  background-color: #f4f1ea; /* 古老羊皮紙色 */
-  background-image: linear-gradient(135deg, #f4f1ea 25%, #ede7da 100%);
-  color: #3e2f28; /* 深焦茶色 */
+  padding: 0;
+  background-color: var(--f1-black);
+  /* 碳纖維底紋背景 */
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(225, 6, 0, 0.15) 0%, transparent 70%),
+    linear-gradient(27deg, #15151e 5px, transparent 5px),
+    linear-gradient(207deg, #15151e 5px, transparent 5px),
+    linear-gradient(27deg, #1a1a26 5px, transparent 5px),
+    linear-gradient(207deg, #1a1a26 5px, transparent 5px);
+  background-size: 100% 100%, 10px 10px, 10px 10px, 10px 10px, 10px 10px;
+  background-position: 0 0, 0 0, 5px 5px, 0 0, 5px 5px;
+  color: var(--f1-text);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
 }
-
-h1 {
-  text-align: center;
-  font-family: "Times New Roman", serif;
-  letter-spacing: 2px;
-  color: #5d4037;
-  border-bottom: 2px solid #d4af37; /* 佛羅倫斯金邊框 */
-  display: block;
-  width: 100%;
-  padding-bottom: 10px;
-  margin-top: 10px;
-}
-
-/* ============================================================
-   分頁與篩選：捲動、區隔與去藍化 (完整替換區塊)
-   ============================================================ */
-
-/* 1. 基礎按鈕設定：徹底去藍化 */
-button {
-  padding: 8px 16px;
-  border: 1.5px solid #c5b358; /* 佛羅倫斯金 */
-  background: #ffffff;
-  color: #3e2f28;             /* 深焦茶色，取代原本的藍色 */
-  border-radius: 4px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  font-weight: bold;
-  font-family: "Georgia", "serif", "Noto Serif TC";
-  font-size: 14px;
-  outline: none;              /* 移除點擊時的藍色外框 */
-  -webkit-tap-highlight-color: transparent; /* 移除手機點擊時的藍色高亮 */
-}
-
-/* 啟動狀態：深色底、淺色字 */
-button.active {
-  background: #5d4037;        /* 深褐色 */
-  color: #f4f1ea;             /* 羊皮紙白 */
-  border-color: #3e2f28;
-}
-
-/* 2. 天數分頁：橫向捲動 + 區隔底色 */
-#tabs {
-  display: flex;
-  overflow-x: auto;
-  white-space: nowrap;
-  gap: 10px;
-  padding: 12px 10px;
-  background: rgba(93, 64, 55, 0.05); /* 極淡褐色背景，做出層次 */
-  border-radius: 8px;
-  margin-bottom: 12px;
-  border: 1px solid rgba(212, 175, 55, 0.2);
-  -webkit-overflow-scrolling: touch;
-}
-
-#tabs button {
-  flex: 0 0 auto;
-  min-width: 70px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-}
-
-/* 3. 分類分頁：橫向捲動 + 橢圓形狀 */
-#filters {
-  display: flex;
-  overflow-x: auto;
-  white-space: nowrap;
-  gap: 10px;
-  padding: 8px 4px;
-  margin-bottom: 20px;
-  justify-content: center; /* 項目少時自動置中 */
-}
-
-#filters button {
-  flex: 0 0 auto;
-  border-radius: 20px;     /* 橢圓形，與天數方形做出視覺區隔 */
-}
-
-/* 隱藏捲軸 */
-#tabs::-webkit-scrollbar, 
-#filters::-webkit-scrollbar {
-  display: none;
-}
-
-/* =========================
-   App 主容器
-   ========================= */
 
 #app {
   margin: 0 auto;
   padding: 20px 16px;
-  max-width: 480px; /* 稍微放寬以適應現代大螢幕手機 */
-  background: #ffffff;
-  min-height: 100vh;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-  display: flex;
-  flex-direction: column;
+  max-width: 520px;
+  box-sizing: border-box;
 }
 
-/* =========================
-   卡片通用結構
-   ========================= */
+/* Header 賽車風頁首 */
+.site-header {
+  text-align: center;
+  margin-bottom: 24px;
+  position: relative;
+}
 
+.f1-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--f1-red);
+  color: #fff;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 10px;
+  font-weight: 800;
+  padding: 3px 10px;
+  border-radius: 2px;
+  letter-spacing: 1.5px;
+  clip-path: polygon(8px 0, 100% 0, calc(100% - 8px) 100%, 0 100%);
+}
+
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 900;
+  margin: 8px 0 2px 0;
+  color: #fff;
+  letter-spacing: 2px;
+  font-style: italic;
+  text-shadow: 0 0 12px rgba(225, 6, 0, 0.5);
+}
+
+.tagline {
+  margin: 0;
+  font-family: 'Teko', sans-serif;
+  font-size: 1.1rem;
+  color: var(--f1-text-muted);
+  letter-spacing: 2px;
+}
+
+/* 賽車紅線裝飾條 */
+.stripe-bar {
+  height: 4px;
+  width: 100%;
+  margin-top: 12px;
+  background: linear-gradient(90deg, transparent 0%, var(--f1-red) 50%, transparent 100%);
+}
+
+/* 滾動選單風格 */
+.scroll-nav {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  gap: 8px;
+  padding: 6px 2px 10px 2px;
+  margin-bottom: 12px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.scroll-nav::-webkit-scrollbar {
+  display: none;
+}
+
+button {
+  padding: 8px 16px;
+  border: 1px solid var(--f1-dark-border);
+  background: var(--f1-dark-card);
+  color: var(--f1-text-muted);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: 'Orbitron', 'Noto Sans TC', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  clip-path: polygon(10px 0, 100% 0, calc(100% - 10px) 100%, 0 100%);
+}
+
+button:hover {
+  color: #fff;
+  border-color: var(--f1-red);
+}
+
+button.active {
+  background: var(--f1-red);
+  color: #fff;
+  border-color: var(--f1-red);
+  box-shadow: 0 0 12px rgba(225, 6, 0, 0.6);
+}
+
+/* F1 卡片樣式 */
 .card {
-  border: 1px solid #dcd0ba;
-  border-radius: 8px;
-  margin-bottom: 18px;
-  box-shadow: 0 4px 12px rgba(93, 64, 55, 0.08);
+  background: var(--f1-dark-card);
+  border: 1px solid var(--f1-dark-border);
+  border-left: 5px solid var(--f1-red);
+  border-radius: 4px;
+  margin-bottom: 14px;
   overflow: hidden;
-  transition: transform 0.2s ease;
+  transition: all 0.25s ease;
+  position: relative;
+}
+
+.card:hover {
+  border-color: rgba(225, 6, 0, 0.5);
+  transform: translateX(2px);
 }
 
 .card-header {
-  padding: 10px 16px;   /* 縮小上下內距 */
+  padding: 14px 16px;
   display: flex;
   justify-content: space-between;
-  align-items: center;  /* 垂直置中 */
-  min-height: 44px;     /* 給予一個最小高度，防止跳動 */
-  height: auto;         /* 確保高度隨內容伸縮但不過量 */
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
 }
 
 .card-header h3 {
-  margin: 0 !important; /* 強制移除所有可能的預設外距 */
-  padding: 0 !important;
-  font-size: 16px;
+  margin: 0;
+  font-size: 1.05rem;
   font-weight: 700;
-  line-height: 1.2;     /* 非常緊湊的行高，1.2 是黃金比例 */
-  color: #5d4037;
-  white-space: pre-line;/* 識別 \n 並摺疊多餘空格 */
-  text-align: left;
-  flex: 1;              /* 讓標題佔據左側所有剩餘空間 */
+  color: #fff;
+  letter-spacing: 0.5px;
+  white-space: pre-line;
+}
+
+.card-header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .card-type {
-  font-size: 11px;
-  font-weight: bold;
-  margin-left: 10px;    /* 標題與標籤間的距離 */
-  white-space: nowrap;  /* 防止右側標籤換行 */
-  align-self: center;   /* 標籤永遠維持在中間高度 */
+  font-family: 'Orbitron', sans-serif;
+  font-size: 10px;
+  font-weight: 800;
+  padding: 3px 8px;
+  border-radius: 2px;
+  background: #2a2a3c;
+  color: #d1d1e0;
+  text-transform: uppercase;
 }
 
+.toggle-icon {
+  font-size: 11px;
+  color: var(--f1-red);
+  transition: transform 0.3s ease;
+}
+
+.card.open .toggle-icon {
+  transform: rotate(180deg);
+}
+
+/* 卡片展開內容 (Telemetry Details) */
 .card-details {
-  display: none; 
-  padding: 14px 16px;
-  border-top: 1px dashed #dcd0ba;
-  font-size: 15px;
-  line-height: 1.7;
-  background: rgba(255, 255, 255, 0.5);
+  display: none;
+  padding: 16px;
+  background: #191924;
+  border-top: 1px solid var(--f1-dark-border);
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: #d1d1e0;
+  animation: slideDown 0.25s ease-out;
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-6px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 .card.open .card-details {
   display: block;
 }
 
-.card-details .map-btn {
+.card-details p {
+  margin: 0 0 8px 0;
+}
+
+.card-details strong {
+  color: var(--f1-red);
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.card-details ul {
+  margin: 6px 0 12px 0;
+  padding-left: 18px;
+}
+
+.card-details li {
+  margin-bottom: 4px;
+}
+
+/* 地圖 / GPS 導航按鈕 */
+.map-btn {
   margin-top: 12px;
-  padding: 12px;
-  background: #5d4037;
-  color: #ffffff;
+  padding: 10px;
+  background: linear-gradient(135deg, var(--f1-red) 0%, var(--f1-red-dark) 100%);
+  color: #fff;
   border: none;
-  border-radius: 4px;
   width: 100%;
   cursor: pointer;
-  font-weight: bold;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  clip-path: polygon(8px 0, 100% 0, calc(100% - 8px) 100%, 0 100%);
+  box-shadow: 0 4px 12px rgba(225, 6, 0, 0.3);
 }
 
-/* =========================
-   🎨 文藝復興主題配色分類
-   ========================= */
-
-.card-attraction { background: #fffcf2; border-color: #d4af37; }
-.card-attraction .card-header { background: #fdf5d2; }
-.card-attraction .card-type { color: #a67c00; }
-
-.card-restaurant { background: #fef8f6; border-color: #d68a73; }
-.card-restaurant .card-header { background: #fcece8; }
-.card-restaurant .card-type { color: #b34d32; }
-
-.card-transportation { background: #f4f9f8; border-color: #a3c4bc; }
-.card-transportation .card-header { background: #e9f3f1; }
-.card-transportation .card-type { color: #4a7c72; }
-
-
-.card-accommodation { background: #f2f4f7; border-color: #7b8fa6; }
-.card-accommodation .card-header { background: #e4e9f0; }
-.card-accommodation .card-type { color: #4f647d; }
-
-
-.card-shop { background: #f4f3ef; border-color: #4f647a; }
-.card-shop .card-header { background: #e6ebf0; }
-.card-shop .card-type { color: #364a5e; }
-
-/* =========================
-   📱 手機深度優化
-   ========================= */
-
-@media (max-width: 768px) {
-  body { 
-    padding: 0; 
-  }
-  
-  #app { 
-    padding: 12px; 
-    width: 100%; 
-    max-width: none; 
-    box-shadow: none;
-    border-radius: 0;
-  }
-
-  h1 { 
-    font-size: 1.4rem; 
-    margin-top: 10px;
-    margin-bottom: 15px;
-  }
-
-  /* 修正手機上分類按鈕太多時的對齊 */
-  #filters {
-    justify-content: flex-start; /* 手機上統一靠左捲動，防止切斷 */
-    padding-left: 10px;
-  }
-  
-  button {
-    font-size: 13px;
-    padding: 8px 12px;
-  }
-
-  /* 調整卡片在手機上的間距 */
-  .card {
-    margin-bottom: 14px;
-  }
+.map-btn:hover {
+  background: #ff1801;
+  box-shadow: 0 0 15px rgba(255, 24, 1, 0.6);
 }
+
+/* 分類顏色樣式 */
+.card-attraction { border-left-color: #ff1801; }
+.card-restaurant { border-left-color: #ff9900; }
+.card-transportation { border-left-color: #00d2be; }
+.card-accommodation { border-left-color: #0090ff; }
+.card-store, .card-shop { border-left-color: #e10600; }
