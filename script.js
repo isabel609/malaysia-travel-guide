@@ -5,6 +5,16 @@ let itineraries = [];
 let currentDay = "intro";
 let currentType = "all";
 
+/* 類型對應名稱 */
+const typeMap = {
+  attraction: "🏛️ 景點",
+  restaurant: "🍜 美食 PIT",
+  transportation: "🏎️ 交通",
+  accommodation: "🏨 基地",
+  store: "🛍️ 購物",
+  shop: "🛍️ 購物"
+};
+
 /* 載入資料 */
 async function loadData() {
   try {
@@ -17,49 +27,62 @@ async function loadData() {
     render();
   } catch (err) {
     console.error(err);
-    list.innerHTML = "<p>❌ 資料載入失敗</p>";
+    list.innerHTML = "<p style='text-align:center; padding:20px; color: var(--f1-red); font-family: Orbitron;'>⚠️ TELEMETRY DATA LOAD FAILED</p>";
   }
 }
 
-/* 主畫面（穩定版本） */
+/* 渲染清單 */
 function render() {
   list.innerHTML = "";
 
   const dayData = itineraries.find(d => d.day === currentDay);
-  if (!dayData || !dayData.places) return;
+  if (!dayData || !dayData.places) {
+    list.innerHTML = "<p style='text-align:center; color: var(--f1-text-muted); padding:30px; font-family: Orbitron;'>NO SESSION DATA FOR THIS DAY.</p>";
+    return;
+  }
 
-  dayData.places.forEach(placeId => {
-    const place = allPlaces.find(p => p.id === placeId);
-    if (!place) return;
+  const filteredPlaces = dayData.places
+    .map(placeId => allPlaces.find(p => p.id === placeId))
+    .filter(place => {
+      if (!place) return false;
+      if (currentType === "all") return true;
+      if (currentType === "store") return place.type === "store" || place.type === "shop";
+      return place.type === currentType;
+    });
 
-    if (currentType !== "all" && place.type !== currentType) return;
+  if (filteredPlaces.length === 0) {
+    list.innerHTML = "<p style='text-align:center; color: var(--f1-text-muted); padding:30px; font-family: Orbitron;'>NO PIT STOPS IN THIS CATEGORY.</p>";
+    return;
+  }
 
-    const card = document.createElement("div");
-    card.className = `card card-${place.type}`;
+  filteredPlaces.forEach(place => {
+    const card = document.createElement("article");
+    const pType = place.type || "attraction";
+    card.className = `card card-${pType}`;
+
+    const typeLabel = typeMap[pType] || "📍 景點";
 
     card.innerHTML = `
       <div class="card-header">
-        <h3>${place.name}</h3>
-        <span class="card-type">
-          ${place.type === "restaurant" ? "餐廳" : 
-            place.type === "transportation" ? "交通" :
-            place.type === "attraction" ? "景點" :
-            place.type === "accommodation" ? "住宿"
-            : "店鋪"
-          }
-        </span>
+        <div class="card-header-left">
+          <h3>${place.name}</h3>
+        </div>
+        <div class="card-header-right">
+          <span class="card-type">${typeLabel}</span>
+          <span class="toggle-icon">▼</span>
+        </div>
       </div>
       
       <div class="card-details">
-        <p>${place.description || ""}</p>
+        ${place.description ? `<p>${place.description}</p>` : ""}
 
-        ${place.opening_hours ? `<p><strong>⏰ 營業時間：</strong>${place.opening_hours}</p>` : ""}
-        ${place.transport ? `<p><strong>🚇 交通方式：</strong>${place.transport}</p>` : ""}
+        ${place.opening_hours ? `<p><strong>⏱️ 營業時間：</strong>${place.opening_hours}</p>` : ""}
+        ${place.transport ? `<p><strong>🏎️ 交通接駁：</strong>${place.transport}</p>` : ""}
 
         ${
-          place.tips
+          place.tips && place.tips.length > 0
             ? `
-              <p><strong>⚠ 注意事項：</strong></p>
+              <p><strong>🏁 戰術與注意事項：</strong></p>
               <ul>
                 ${place.tips.map(t => `<li>${t}</li>`).join("")}
               </ul>
@@ -67,29 +90,39 @@ function render() {
             : ""
         }
 
-        <button class="map-btn">📍 在 Google 地圖中開啟</button>
+        ${
+          place.map_url
+            ? `<button class="map-btn" data-url="${place.map_url}">📡 LAUNCH GPS NAVIGATION</button>`
+            : ""
+        }
       </div>
     `;
 
-    // 收合 / 展開
+    // 展開/收合卡片
     card.querySelector(".card-header").onclick = () => {
+      const isOpen = card.classList.contains("open");
+      
       document.querySelectorAll(".card.open").forEach(c => {
         if (c !== card) c.classList.remove("open");
       });
-      card.classList.toggle("open");
+
+      card.classList.toggle("open", !isOpen);
     };
 
-    // 開 Google Maps
-    card.querySelector(".map-btn").onclick = (e) => {
-      e.stopPropagation();
-      window.location.href = place.map_url;
-    };
+    // Google 地圖按鈕防止事件冒泡
+    const mapBtn = card.querySelector(".map-btn");
+    if (mapBtn) {
+      mapBtn.onclick = (e) => {
+        e.stopPropagation();
+        window.open(place.map_url, "_blank");
+      };
+    }
 
     list.appendChild(card);
   });
 }
 
-/* Day 分頁 */
+/* Day 切換 */
 document.querySelectorAll("#tabs button").forEach(btn => {
   btn.onclick = () => {
     document.querySelectorAll("#tabs button").forEach(b => b.classList.remove("active"));
@@ -99,7 +132,7 @@ document.querySelectorAll("#tabs button").forEach(btn => {
   };
 });
 
-/* 類型篩選 */
+/* 類型切換 */
 document.querySelectorAll("#filters button").forEach(btn => {
   btn.onclick = () => {
     document.querySelectorAll("#filters button").forEach(b => b.classList.remove("active"));
@@ -109,5 +142,4 @@ document.querySelectorAll("#filters button").forEach(btn => {
   };
 });
 
-/* 啟動 */
 loadData();
