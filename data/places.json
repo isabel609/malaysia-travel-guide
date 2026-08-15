@@ -1,0 +1,1407 @@
+[
+  {
+    "id":"florence",
+    "name":"佛羅倫斯 (義大利中部托斯卡尼地區)",
+    "type":"attraction",
+    "tags":["景點"],
+    "description":"文藝復興象徵的城市，15～16世紀在麥第奇家族的統治下，經濟跟文化都來到鼎盛。",
+    "map_url":"https://maps.app.goo.gl/8dPjWNtrWHi366vZ8"
+  },
+  {
+    "id":"verona",
+    "name":"維羅納（義大利北部威尼托地區）",
+    "type":"attraction",
+    "tags":["景點"],
+    "description":"建於西元一世紀，在羅馬帝國時期非常繁榮。史卡立傑利（Scaligeri）家族從1263年開始長達127年的統治。15～18世紀末期，維羅納還屬於威尼斯共和國，充滿文藝復興、巴洛克風格教堂跟宮殿。2000多年不斷發展，造就維羅納充滿各個時期的建築風格。莎士比亞的名作《羅密歐與茱麗葉》以此城為背景，有「愛之都」之稱",
+    "map_url":"https://maps.app.goo.gl/z13b1LHA5zeoiapGA"
+  },
+  {
+    "id":"greve",
+    "name":"Greve in Chianti(義大利中部托斯卡尼地區)",
+    "type":"attraction",
+    "tags":["景點"],
+    "description":"全球最著名的葡萄酒產區之一，以療癒的葡萄園風光、古老城堡和醇厚的美酒聞名",
+    "map_url":"https://maps.app.goo.gl/JFFcp1EMz3q4eArW6"
+  },
+  {
+    "id":"chianti",
+    "name":"奇揚地 (義大利中部托斯卡尼地區)",
+    "type":"attraction",
+    "tags":["景點"],
+    "description":"全球最著名的葡萄酒產區之一。最頂級的「經典奇揚地（Chianti Classico）」瓶頸上，都印有一隻黑公雞（Gallo Nero）標誌。",
+    "map_url":"https://maps.app.goo.gl/ukDM6gs58DMnBqso6"
+  },
+  {
+    "id":"sangimignano",
+    "name":"聖吉米尼亞諾 (義大利中部托斯卡尼地區)",
+    "type":"attraction",
+    "tags":["景點"],
+    "description":"中世紀山城，這裡最大特色是城中高塔林立，被譽為「托斯卡尼的皇冠」。充滿中世紀封建時代的氛圍，位在往來羅馬的中繼站，統治這個地區的家族在這邊建造了72座高塔，目前只剩14座留存下來。除了被登錄為世界文化遺產，也獲評為米其林三星級旅遊推薦。來這邊的觀光客比較少，所以皮件、黑松露等商品都相對便宜",
+    "map_url":"https://maps.app.goo.gl/uKQxkbXKmAwraqtw9"
+  },
+  {
+    "id":"musttoeat",
+    "name":"義大利必吃美食甜點",
+    "type":"restaurant",
+    "tags":["餐廳"],
+    "description":"美食甜點都不能放過",
+    "tips":["Marrochino 摩洛哥咖啡：咖啡+奶泡+可可粉","gelato","Cannoli 開心果起司捲","提拉米蘇","Semifreddo Torroncino 義式牛扎糖冰淇淋蛋糕","Chianti葡萄酒 （brunello di montalcino, Vino Nobile di Montepulciano)","Piemonte 出產的Moscato D’Asti白葡萄酒（微甜、微氣泡、酒精濃度低)","Aperol Spritz阿佩羅雞尾酒",
+"Bistecca alla Fiorentina佛羅倫斯大牛排","Pappardelle大寬麵","Pici 手橄細麵","Bigoli 特製手工麵條","Prosseco 香檳","gelato"]
+  },
+  {
+    "id":"musttobuy",
+    "name":"義大利必買",
+    "type":"store",
+    "tags":["商店"],
+    "description":"歐米呀給",
+    "tips":["牛肝菌 Funghi Porcini","皮件","摩卡壺 （Bialetti / Giannini/ Alessi)","Baci 巧克力","Lavazza/ illy 咖啡","松露鹽 (Piemonte地區出產的最棒）","檸檬糖","檸檬香皂","義大利麵","Manetti Roberts Rose water 蒸餾玫瑰水（化妝水）","Mulino Bianco 白磨坊餅乾 （baiocchi 榛果可可醬、Cuoricini 可可豆餅乾）"]
+  },
+  {
+    "id":"taoyuaninternationalairportterminal10718",
+    "name":"桃園機場第一航廈",
+    "type":"transportation",
+    "tags":["交通"],
+    "description":"23:55 桃園出發，C175班機",
+    "tips":["2.5小時前抵達","辦理登機時，要確認行李標籤上寫的是「FLR」（佛羅倫斯機場代碼)，才有直掛"],
+    "map_url":"https://maps.app.goo.gl/eiZf5Wx4ymjWB7zL6"
+  },
+  {
+  "id":"romefiumicinoairport0719",
+  "name":"羅馬菲烏米奇諾機場\nRome Fiumicino",
+  "type":"transportation",
+  "tags":["交通"],
+  "description":"7:35會先在第三航廈落地，要再去第一航廈轉機去佛羅倫斯",
+  "tips":["轉機時間：T3 → T1 步行約 10–15 分鐘，建議至少預留 45 分鐘以上",
+    "安檢：抵達羅馬後，跟著 Transfer/Connections 指示牌走，再次通過安檢才能進入 T1 登機區",
+    "登機口：佛羅倫斯航班通常在 T1 的 A 區，抵達後要看航班資訊螢幕",
+    "航空公司 :Ita Airways",
+    "班機號碼 : AZ1675",
+    "起飛時間 : 9:45"
+  ],
+  "map_url":"https://maps.app.goo.gl/p8sDg9JP7UiorDFe7"
+  },
+  {
+  "id":"florenceperetolaairport0719",
+  "name":"佛羅倫斯佩雷托拉機場\nFlorence Peretola",
+  "type":"transportation",
+  "tags":["交通"],
+  "description":"10:40落地",
+  "tips":["前往市區交通 : 可搭計程車或T2有軌電車",
+      "計程車：從機場到市區車程約15分鐘。出關後，向右轉，朝著計程車排隊區走。假日固定車資約€30 + 每件大行李會額外收約 €1.2（以5件算，約€6）+機場出發加價€3，所以總共大概€40。告訴司機要去Borgo ognissanti(最靠近住宿的計程車下車點)",
+      "T2有軌電車：週日到週四早上5:00～晚上12:30、週五到週六早上5:00～凌晨2:00；搭乘位置就在航廈出境大廳出口外面，找 「Tramvia」 或 「T2」 的電車圖示指標，步行約 2 分鐘即可抵達；平均10～20分鐘一班，車程約20分鐘，坐往市區 Unità 方向，在Alamanni - Stazione 站下車（此站即是佛羅倫斯中央車站 SMN 旁的路面電車站，離住宿地點走路5～6分鐘）；一人車資單程€1.70 + 一間大型行李要再€1.70，可以用現金或信用卡在自動售票機購票。買完票上車後，務必將車票插入車廂內的黃色打票機印上時間，若未打票，遇到查票會被視為逃票並處以高額罰款"],
+  "map_url":"https://maps.app.goo.gl/YbbKi9tjWQ8MeznX8"
+  },
+  {
+  "id":"trattoriacontadino",
+  "name":"Trattoria Il Contadino",
+  "type":"restaurant",
+  "tags":["義大利麵"],
+  "description":"florence義大利麵小餐館，有fix price menu (套餐，含主食+副餐+水+飲料或酒)，價格介於€10-€15",
+  "opening_hours":"12:00-15:00 , 18:30-22:30",
+  "tips":["靠近住宿",
+  "火車站左側"],
+  "map_url":"https://maps.app.goo.gl/DzZh3i5SdB8wdcRf8"
+  },
+  {
+  "id":"trattoriadagiorgio",
+  "name":"Trattoria da Giorgio",
+  "type":"restaurant",
+  "tags":["義大利麵"],
+  "description":"florence義大利麵小餐館，有fix price menu (套餐，含主食+副餐+水+飲料或酒)，價格介於€10-€20",
+  "opening_hours":"12:00–14:30 , 19:00–22:00",
+  "tips":["靠近住宿",
+  "火車站左側"],
+  "map_url":"https://maps.app.goo.gl/8PrkFYHS2DR1aKhf8"
+  },
+  {
+  "id":"b.ice",
+  "name":"B. ICE",
+  "type":"restaurant",
+  "tags":["冰淇淋"],
+  "description":"gelato冰淇淋，4.7顆星",
+  "opening_hours":"11:00-22:00",
+  "tips":["靠近住宿",
+  "火車站左側"],
+  "map_url":"https://maps.app.goo.gl/m5TLmBQfeobjYf3fA"
+  },
+  {
+  "id":"firenzewelcomecenter",
+  "name":"Firenze Welcome Center",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"旅遊服務中心，可以領firenze card實體卡",
+  "opening_hours":"09:00-19:00",
+  "map_url":"https://maps.app.goo.gl/jsZSkyjLj64LKR2H6?g_st=ic"
+  },
+  {
+  "id":"smn",
+  "name":"SMN百年修道士藥妝店",
+  "type":"store",
+  "tags":["香水"],
+  "description":"百年化妝品店，賣香水/香氛/肥皂等",
+  "opening_hours":"09:30-20:00",
+  "tips":["靠近住宿",
+  "火車站左側"],
+  "map_url":"https://maps.app.goo.gl/KZetjZBg1J9JULp16"
+  },
+  {
+  "id":"basilicadisantamarianovella",
+  "name":"新聖母大殿 Basilica di Santa Maria Novella",
+  "type":"attraction",
+  "tags":["教堂"],
+  "description":"哥德式教堂，就在佛羅倫斯火車站旁邊",
+  "opening_hours":"週一到週四及週六9:00～17:30、週五11:00～17:30、週日13:00～17:30",
+  "tips":["全票€7.5 （含教堂博物館跟修道院）","教堂內部必看：馬薩其歐（Masaccio）《三位一體 Trinity》、喬托《十字架 Crucifix》","博物館必看：《綠色迴廊 Chiostro Verde》 、《西班牙大祭壇 Cappellone degli Spagnoli》"],
+  "map_url":"https://maps.app.goo.gl/XxRzT2fNsCGhfEE17?g_st=ic"
+  },
+  {
+  "id":"paninomondiale",
+  "name":"Panino Mondiale - Specialità Lampredotto",
+  "type":"restaurant",
+  "tags":["三明治"],
+  "description":"florence有各種口味的三明治小販，價格介於€5-€7",
+  "opening_hours":"10:30–02:00",
+  "tips":["靠近火車站" , "火車站右側"],
+  "map_url":"https://maps.app.goo.gl/ZQPfprSqsXa9aiXB8"
+  },
+  {
+  "id":"garbopizzeria",
+  "name":"Garbo Pizzeria",
+  "type":"restaurant",
+  "tags":["披薩"],
+  "description":"florence有各種口味的披薩店，價格幾乎低於€15",
+  "opening_hours":"10:00–23:00",
+  "tips":["靠近火車站" , "火車站右側"],
+  "map_url":"https://maps.app.goo.gl/5cLyoAcpnWG9Jbah6"
+  },
+  {
+  "id":"gelateriaartigianalelasorbettiera",
+  "name":"Gelateria Artigianale La Sorbettiera",
+  "type":"restaurant",
+  "tags":["冰淇淋"],
+  "description":"gelato冰淇淋，4.7顆星",
+  "opening_hours":"10:00–23:00",
+  "tips":["靠近火車站" , "火車站右側"],
+  "map_url":"https://maps.app.goo.gl/o35KnQKrWdQA9rfSA"
+  },
+  {
+  "id":"borgoapartment",
+  "name":"Borgo Apartment by Mamo Florence",
+  "type":"accommodation",
+  "tags":["住宿"],
+  "description":"florence住宿",
+  "tips":["已支付€20提早到13:00 check in","退房時間:6:00-10:00"],
+  "map_url":"https://maps.app.goo.gl/5cLyoAcpnWG9Jbah6"
+  },
+  {
+  "id":"firenzesantamarianovella0719",
+  "name":"Firenze Santa Maria Novella",
+  "type":"transportation",
+  "tags":["交通"],
+  "description":"坐高速火車到verona火車站",
+  "tips":["搭16:36的frecciarossa 8520直達車，路程1h 32min，18:08到，一張票約1262 NTD",
+  "提前用trenitalia官方APP買票，可以選super economy (最便宜，但不能改票) 跟Economy(可以改一次票)",
+  "可以由一個人買，但每張票都要填寫乘客姓名，要跟護照拼音對的上，查票時給他一次看所有人的票或截圖電子票給其他人",
+  "不用打票，上車等查票即可",
+  "火車票只適用指定時間跟車次，錯過就沒有了",
+  "高速火車月臺通常出發前10~15分鐘才會在電子看板或app顯示",
+  "要坐對車廂 (carrozza)跟座位號碼 (Posto)"
+  ],
+  "map_url":"https://maps.app.goo.gl/N4P645KcRQZRoW956"
+  },
+  {
+  "id":"veronaportanuova0719",
+  "name":"Verona Porta Nuova",
+  "type":"transportation",
+  "tags":["交通"],
+  "description":"verona火車站",
+  "tips":["走路15分鐘去verona住宿check-in"
+  ],
+  "map_url":"https://maps.app.goo.gl/SqmLKjpq67DUeTuY7"
+  },
+  {
+  "id":"piccoloatticoportanuova",
+  "name":"Piccolo Attico Porta Nuova",
+  "type":"accommodation",
+  "tags":["住宿"],
+  "description":"verona住宿",
+  "tips":["check in 時間: 15:00-18:00" , "退房時間: 8:00-10:00",
+    "已跟住宿方確認可以18:30 check-in，希望火車準時嗚嗚"    
+  ],
+  "map_url":"https://www.google.com/maps/place/Piccolo+Attico+Porta+Nuova+-+Two-Bedroom+Apartment/@45.4350319,10.9847699,16z/data=!4m10!3m9!1s0x477f5f439b19cdc7:0x56c912ee8c8a873e!5m2!4m1!1i2!8m2!3d45.4350319!4d10.9899197!16s%2Fg%2F11mky0wb0n!17BQ0FF?authuser=0&entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+  "id":"veronapass",
+  "name":"Verona Pass",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"verona pass除了在IAT Verona Tourist Information Office購買，也可以在有配合的博物館或教堂售票處（部分景點如茱麗葉故居、朗貝爾蒂塔除外）購買",
+  "opening_hours":"09:00–18:00",
+  "tips":["24 小時券：約 €27",
+    "免費參觀景點 :維洛納競技場/茱麗葉之家/蘭貝爾蒂塔/老城堡博物館/維洛納主教座堂/聖柴諾聖殿/聖安娜斯塔西亞教堂/羅馬劇場考古博物館/自然歷史博物館/茱麗葉之墓博物館等",
+    "茱麗葉之家 (Casa di Giulietta) 強制預約： 雖然持卡可免費參觀，但因人潮極為擁擠，必須事先在官網預約入場時段。若未預約，即使持有實體卡也無法進入。",
+    "回本 : 看三個以上景點就回本",
+    "一卡一景點： 每個涵蓋的景點（博物館、教堂、歷史遺跡）只能憑卡進入一次",
+    "快速通關： 直接前往入口處的讀卡機或專屬通道感應卡片即可，多數主要景點享有免排隊 (Skip-the-line) 的待遇，能大幅提升走訪效率。",
+    "可免費且無限次搭乘維羅納市內的 ATV (Azienda Trasporti Verona) 市區公車。",
+    "每次上公車時，務必將卡片靠在車上的讀卡機進行感應 (Validate)，以免視同逃票。"
+  ],
+  "map_url":"https://maps.app.goo.gl/MoPjv3EFjgNVJVqS7"
+  },
+  {
+  "id":"osteriamiola",
+  "name":"Osteria Miola",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"verona義大利麵、牛排之類的，價格落在€13~€24",
+  "opening_hours":"12:00-14:30 , 19:00-22:30",
+  "tips":["靠近住宿，在住宿對街上"],
+  "map_url":"https://maps.app.goo.gl/Yfm5vaBpTzG73hht7"
+  },
+  {
+  "id":"istanbuldonerkebab",
+  "name":"Istanbul Doner Kebab",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"verona中東烤肉店，價格落在€2.5~€10",
+  "opening_hours":"11:00-01:30",
+  "tips":["靠近住宿，在住宿對街上"],
+  "map_url":"https://maps.app.goo.gl/z4bHLyZRamMPNXei6"
+  },
+  {
+  "id":"wolonristorantecinese",
+  "name":"Wolon Ristorante Cinese",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"verona中菜店，評價不錯，有台灣人認證好吃。一道菜價格落在300台幣",
+  "opening_hours":"11:30-15:00 , 18:30-23:00",
+  "tips":["住宿往競技場方向走，跟住宿同側邊"],
+  "map_url":"https://maps.app.goo.gl/a45R5H16aztnPago7"
+  },
+  {
+  "id":"midwest25",
+  "name":"Midwest 25",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"verona速食店。一份落在€10~€20",
+  "opening_hours":"12:00-15:00 , 19:00-23:00",
+  "tips":["住宿往競技場方向走，跟住宿同側邊"],
+  "map_url":"https://maps.app.goo.gl/iumYjm87xaXMCjuf9"
+  },
+  {
+  "id":"arenadiverona",
+  "name":"Arena di Verona",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"羅馬露天圓形競技場，看露天歌劇節目",
+  "tips":["Aida 21:15開始，開演前2小時可以入場，至少要提早1小時排安檢跟找座位",
+  "從gate 6進場，位置在第5區的對號石階座位，第4排的60/62/64/66號",
+  "背景是古埃及，正和衣索比亞交戰。阿依達（Aida）是衣索比亞公主，被俘後成了埃及公主的侍女。拉達梅斯（Radamès）是埃及名將。安奈莉絲（Amneris）是埃及公主，暗戀拉達梅斯。拉達梅斯和阿依達真心相愛，但兩人立場敵對，一個是敵國的公主，一個是要為埃及打仗的將軍，拉達梅斯在國家榮耀與個人愛情之間掙扎；阿依達則在對父親與祖國的忠誠和對愛人的感情之間痛苦抉擇。埃及公主安奈莉絲因愛生恨，讓三人的關係越來越無法挽回，最後走向一個壯烈又悲傷的結局"],
+  "map_url":"https://maps.app.goo.gl/rt15R1wRFBAck6ny7"
+  },
+  {
+  "id":"gelaterialaromanadal1947",
+  "name":"Gelateria La Romana dal 1947",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"gelato，",
+  "opening_hours":"11:00-00:00",
+  "tips":["靠近住宿，在住宿對街上"],
+  "map_url":"https://maps.app.goo.gl/Yfm5vaBpTzG73hht7"
+  },
+  {
+  "id":"café71",
+  "name":"Café n°71",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"verona早午餐",
+  "opening_hours":"07:15-18:00",
+  "tips":["住宿樓下同側。價格落在€1~€10"],
+  "map_url":"https://maps.app.goo.gl/CJgJ614fGbY49VKn7"
+  },
+  {
+  "id":"brunchrepublicverona",
+  "name":"Brunch Republic Verona",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"verona早午餐",
+  "opening_hours":"07:30-21:30",
+  "tips":["住宿往左走，住宿對面街上。價格落在€10~€20"],
+  "map_url":"https://maps.app.goo.gl/DEJyWcVyvywjRkgy5"
+  },
+  {
+  "id":"saintbernardino",
+  "name":"Saint Bernardino",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"修道院",
+  "opening_hours":"08:30-11:30 / 15:30-17:30",
+  "tips":["免門票"],
+  "map_url":"https://maps.app.goo.gl/MoPjv3EFjgNVJVqS7"
+  },
+  {
+  "id":"basilicadisanzenomaggiore",
+  "name":"Basilica di San Zeno Maggiore",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"聖柴諾聖殿",
+  "opening_hours":"09:00-18:30",
+  "tips":["要門票", "單一教堂票€4","如果90天內要去聖柴諾聖殿、維羅納主教座堂、聖亞納大削堂、聖費爾莫堂，可以在其中一個教堂買聯票(cumulative ticket)，一張€8，不用提前預約","或是買verona pass","用手機就可以免費聽官方語音導覽"],
+  "map_url":"https://maps.app.goo.gl/Zdu9rrPbiDVyDfFU8"
+  },
+  {
+  "id":"pontedicastelvecchio",
+  "name":"Ponte di Castelvecchio",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"阿迪傑河上14世紀建的斯卡利傑羅橋，以大理石和磚砌成的",
+  "tips":["從聖柴諾聖殿走去市區會經過"],
+  "map_url":"https://maps.app.goo.gl/iJxMnqjd7pFTm8Cf6"
+  },
+  {
+  "id":"portaborsari",
+  "name":"Porta Borsari",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"波薩利門",
+  "tips":["建於西元1世紀 (羅馬帝國時期)的城市正門"],
+  "map_url":"https://maps.app.goo.gl/xccAufsH36qEmWvu5"
+  },
+  {
+  "id":"piazzaerbe",
+  "name":"Piazza Erbe",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"百草廣場",
+  "tips":["城鎮廣場，周圍有很多咖啡館跟市集可以逛","可以買到verona傳統燉肉與梨醬三明治 lesso e peara"],
+  "map_url":"https://maps.app.goo.gl/YtN6BEpqLyErVvyU7"
+  },
+  {
+  "id":"torredeilamberti",
+  "name":"Torre dei Lamberti",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"朗貝爾蒂塔",
+  "opening_hours":"10:00-18:00",
+  "tips":["維羅納最高的中世紀塔樓，由蘭伯蒂家族於 1172 年建成","可以用verona pass進入"],
+  "map_url":"https://maps.app.goo.gl/YtN6BEpqLyErVvyU7"
+  },
+  {
+  "id":"piazzadeisignori",
+  "name":"Piazza dei Signori",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"領主廣場",
+  "tips":["廣場，有但丁的雕像和咖啡廳"],
+  "map_url":"https://maps.app.goo.gl/YtN6BEpqLyErVvyU7"
+  },
+  {
+  "id":"micheleturco1909",
+  "name":"Michele Turco 1909",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"麵包店，有賣義大利節日美食pandoro，一種用雞蛋、奶油和糖製成，最後撒上糖粉的蛋糕",
+  "opening_hours":"11:00-13:30 / 15:30-19:00",
+  "map_url":"https://maps.app.goo.gl/SvFZi4i7NcrPUoM57"
+  },
+  {
+  "id":"osteriaalduca",
+  "name":"Osteria al Duca",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"義大利麵餐廳，價格落在€20~€30，有賣verona美食 鴨肉拉古醬比高利麵Bigoli with duck ragù",
+  "opening_hours":"12:00-14:30",
+  "map_url":"https://maps.app.goo.gl/ETD71Egdt86FLUNH6"
+  },
+  {
+  "id":"osteriailbertoldo",
+  "name":"Osteria Il Bertoldo",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"義大利麵餐廳，價格落在€20~€40，有賣verona美食 鴨肉拉古醬比高利麵Bigoli with duck ragù",
+  "tips":["可以用google訂位"],
+  "opening_hours":"12:00-22:30",
+  "map_url":"https://maps.app.goo.gl/HuiJkikArzbDZLv1A"
+  },
+  {
+  "id":"complessodelduomodiverona",
+  "name":"Complesso del Duomo di Verona",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"維羅納主教座堂",
+  "opening_hours":"10:00-17:30",
+  "tips":["天主教主教座堂","可以用verona pass進入","必看作品:文藝復興時期維尼斯第一畫師提香(Tiziano Vecellio)所作<聖母升天>"],
+  "map_url":"https://maps.app.goo.gl/YtN6BEpqLyErVvyU7"
+  },
+  {
+  "id":"basilicadisant'anastasia",
+  "name":"Basilica di Sant' Anastasia",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"聖亞納大教堂",
+  "opening_hours":"09:30-18:00",
+  "tips":["可以用verona pass進入","哥德式建築"],
+  "map_url":"https://maps.app.goo.gl/6PjFtRQhu4B58fJX6"
+  },
+  {
+  "id":"portaleoni",
+  "name":"Porta Leoni",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"獅子門",
+  "tips":["古羅馬城市正門之一，以前在這發現了有裝飾了兩個石獅子的古墓，因而得名","附近有很多小商店跟冰淇淋店"],
+  "map_url":"https://maps.app.goo.gl/wtM4xzapC2S2uZan9"
+  },
+  {
+  "id":"gelateriaverona",
+  "name":"Gelateria Verona",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"gelato",
+  "tips":["可以用google訂位"],
+  "opening_hours":"11:30-20:00",
+  "map_url":"https://maps.app.goo.gl/WQhdFnKnLdxPXcFH8"
+  },
+  {
+  "id":"chiesadisanfermomaggiore",
+  "name":"Chiesa di San Fermo Maggiore",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"聖費爾莫教堂",
+  "opening_hours":"09:30-18:00",
+  "tips":["可以用verona pass進入","由兩座不同時代、不同風格的教堂疊加而成的大教堂","特色是上層教堂的木製龍骨穹頂，以及早期文藝復興畫師 : 皮薩內洛繪製的《聖母領報》(Annunciation)濕壁畫"],
+  "map_url":"https://maps.app.goo.gl/FBBSx47KUSY3HsGEA"
+  },
+  {
+  "id":"veronaportanuova0720",
+  "name":"Verona Porta Nuova",
+  "type":"transportation",
+  "tags":["交通"],
+  "description":"verona火車站，16:20出發，8963班次回florence",
+  "map_url":"https://maps.app.goo.gl/SqmLKjpq67DUeTuY7"
+  },
+  {
+  "id":"firenzesantamarianovella0720",
+  "name":"Firenze Santa Maria Novella",
+  "type":"transportation",
+  "tags":["交通"],
+  "description":"17:54抵達",
+  "map_url":"https://maps.app.goo.gl/N4P645KcRQZRoW956"
+  },
+  {
+  "id":"phopho",
+  "name":"Pho Pho",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"越南河粉",
+  "tips":["可以用google訂位","價格落在€10~€20"],
+  "opening_hours":"11:00-22:30",
+  "map_url":"https://maps.app.goo.gl/rzTvQQoFjfDgANWN7"
+  },
+  {
+  "id":"sig.riso",
+  "name":"Sig.Riso 米先生中餐馆",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"中餐館",
+  "tips":["價格落在€10~€20"],
+  "opening_hours":"11:30-22:30",
+  "map_url":"https://maps.app.goo.gl/jqzGUR42RDCndJMbA"
+  },
+  {
+  "id":"ristorantecineseimpressionechongqing",
+  "name":"重慶印象",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"川菜",
+  "tips":["價格落在€10~€20"],
+  "opening_hours":"12:00-15:30 / 18:00-22:30",
+  "map_url":"https://maps.app.goo.gl/Yb2m4DDV8uiFmYQz5"
+  },
+  {
+  "id":"conadcity",
+  "name":"Conad City",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"超市",
+  "opening_hours":"08:30-21:00",
+  "map_url":"https://maps.app.goo.gl/1hYDmuUPXp88b25j6"
+  },
+  {
+  "id":"caffèbrunelleschi",
+  "name":"Caffè Brunelleschi",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"早餐，麵包店",
+  "opening_hours":"6:30～21:00",
+  "map_url":"https://maps.app.goo.gl/w1dkc76TjfCNXMN87?g_st=ic"
+  },
+  {
+  "id":"criptadisantareparata",
+  "name":"聖雷帕拉達教堂 Cripta di Santa Reparata",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"地下遺跡，聖母百花大教堂是重建在西元5世紀就存在的聖雷帕拉達教堂上。",
+  "opening_hours":"10:15～16:00",
+  "tips":["從聖雷帕拉達教堂入口進教堂（因為要買套票才能進，所以排隊的人會比直接從百花教堂大門進還少），因為地下遺跡的樓梯是在教堂內部中心，所以可以看是要先逛教堂內部，還是先下去地下遺跡","有布魯內雷斯基的棺木","不能穿無袖上衣、短褲、短裙、涼鞋、帽子","不能帶後背包"],
+  "map_url":"https://maps.app.goo.gl/1hYDmuUPXp88b25j6"
+  },
+  {
+  "id":"cattedraledisantamariadelfiore",
+  "name":"聖母百花大教堂 Cattedrale di Santa Maria del Fiore",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"世界第四大教堂，這座文藝復興時期的建築傑作以粉綠、粉紅和白色的幾何大理石外觀聞名",
+  "opening_hours":"10:15～15:45",
+  "tips":["百花教堂地板是彩色大理石","因為下午爬穹頂動線本身就會引導走過大教堂內部（如懸空走道），可以在高處俯瞰大教堂內部。登頂結束下樓後，也會直接進到大教堂的一樓大廳，這時就還可以直接在裡面參觀的。所以早上就是有時間就逛，沒時間就下午穹頂時候再參觀。"],
+  "map_url":"https://maps.app.goo.gl/bcYeKZEftmgUnBNB9?g_st=ic"
+  },
+  {
+  "id":"lebotteghedidonatello",
+  "name":"Le Botteghe Di Donatello",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"義大利麵、披薩、簡餐",
+  "opening_hours":"11:00～00:00",
+  "map_url":"https://maps.app.goo.gl/k3VFyi8wSBDqy3z7A?g_st=ic"
+  },
+  {
+  "id":"lAnticacantinadelchianti",
+  "name":"L' Antica Cantina del Chianti",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"義大利麵、披薩、簡餐",
+  "opening_hours":"10:00～23:00",
+  "map_url":"https://maps.app.goo.gl/heTUnJRgrepV8vMVA?g_st=ic"
+  },
+  {
+  "id":"brunelleschi'sdome",
+  "name":"穹頂Brunelleschi's dome",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"羅馬式古典圓頂由布魯內雷斯基監督建造，穹頂外部是由不同尺寸的紅瓦覆蓋",
+  "tips":["下午1:30的場次，要提早去教堂北側 Porta Della Mandorla 入口排隊，在入口出示門票QR Code","約 463階，建議穿好走鞋、提早 10–15 分鐘到。只有前段可休息，比較不通風","登頂可以看鐘樓跟市容（紅屋頂海＋阿諾河＋遠山）","沿路能近距離看圓頂上的【最後的審判】濕壁畫，是由文藝復興大師瓦薩里（Giorgio Vasari）與祖卡里（Federico Zuccari）於 1574 年至 1579 年間創作，是全球最大的穹頂壁畫之一"],
+  "map_url":"https://maps.app.goo.gl/yLE9KnV2nhPi6SPRA?g_st=ic"
+  },
+  {
+  "id":"nuvolagelateria",
+  "name":"Nuvola Gelateria",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"爬完穹頂要吃gelato補足體力",
+  "opening_hours":"11:00～23:00",
+  "map_url":"https://maps.app.goo.gl/cns6Mt5icjmKBVTN8?g_st=ic"
+  },
+  {
+  "id":"museoleonardodavinci",
+  "name":"Museo Leonardo Da Vinci",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"達文西博物館，可以與達文西設計的模型互動",
+  "tips":["不能用firenze card免費入場，但可以打折（便宜€1）"],
+  "opening_hours":"09:30～19:30",
+  "map_url":"https://maps.app.goo.gl/49PGxrUNgAVd6Fya6?g_st=ic"
+  },
+  {
+  "id":"piazzadellasantissimaannunziata",
+  "name":"聖母領報廣場 Piazza della Santissima Annunziata",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"是義大利佛羅倫斯極具代表性的文藝復興廣場。由Filippo Brunelleschi等建築大師聯手打造，四周環繞著完美的拱廊建築",
+  "tips":["有兩座海怪噴泉","有機會會有市集可以逛"],
+  "map_url":"https://maps.app.goo.gl/HmFMA4G1x8VaN7u1A?g_st=ic"
+  },
+  {
+  "id":"basilicadellasantissimaanunziata",
+  "name":"佛羅倫斯聖母領報大殿 Basilica della Santissima Annunziata",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"創立於 1250 年，雖然外觀由低調的九孔連廊構成，但內部極其奢華精緻，是佛羅倫斯巴洛克風格裝飾的極致代表，更因「天使作畫」的神蹟傳說而成為全城最重要的瑪利亞朝聖地",
+  "tips":["免費入場","教堂的名字與地位源於一幅神聖的《聖母領報》壁畫。相傳在 1252 年，一位名叫巴托洛米歐（Bartolomeo）的修士受託繪製聖母被天使報喜的場景。但他認為自己技巧平庸，無法畫出聖母無瑕、美麗的容貌而焦慮至極。當他因疲憊睡著後，醒來竟發現聖母的面容已被完美畫好。人們深信這是天使在修士熟睡時下凡代筆的神蹟。","必看空間1:死者中庭 (Chiostro dei Voti)走進教堂大門前會先經過這座充滿自然光的前庭。這裡是一座藝術寶庫，牆上保留了 16 世紀文藝復興大師的頂級壁畫，包括安德烈亞·德爾·薩爾托（Andrea del Sarto）的《聖母誕辰》與《三賢士來朝》、以及蓬托莫（Pontormo）的《聖母訪親》","必看空間2:穿過中庭進入教堂內部，風格會陡然轉變為無比絢麗的巴洛克風。最引人注目的是由沃爾泰拉（Volterrano）設計的巨大鍍金木質天花板，中央繪有華麗的聖母升天圖。這裡也擁有佛羅倫斯最古老（1628 年）、全義大利第二古老的管風琴。"],
+  "opening_hours":"16:00～18:30",
+  "map_url":"https://maps.app.goo.gl/ABTQ4ZTEMnA2PjDLA?g_st=ic"
+  },
+  {
+  "id":"trattoriazàzà",
+  "name":"Trattoria Zà Zà",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"當地很有名的托斯卡尼餐廳，可以預約",
+  "opening_hours":"11:00～23:00",
+  "map_url":"https://maps.app.goo.gl/HtTnLKafg7Wy68Fv6?g_st=ic"
+  },
+  {
+  "id":"roostercafe",
+  "name":"Rooster Cafe Firenze - Porta Rossa",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"早午餐店，看起來很好吃",
+  "opening_hours":"8:30～00:00",
+  "map_url":"https://maps.app.goo.gl/eHuXej4GBgnUyDpZ6?g_st=ic"
+  },
+  {
+  "id":"campaniledigiotto",
+  "name":"喬托鐘樓 Campanile di Giotto",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"百花教堂套票景點之一。仿羅馬及哥德式風格",
+  "opening_hours":"8:15～18:45",
+  "tips":["414層階梯，分三層，中間有位置休息。可以看圓頂跟市容，如果有遇到敲鐘時間，鐘聲就在頭頂","鐘樓旁的建築有兩座雕像：拿捲軸的是教堂初代設計師岡比歐，眼睛看向圓頂的是布魯內雷斯基"],
+  "map_url":"https://maps.app.goo.gl/wtmj7QEkxGsFdnNb8?g_st=ic"
+  },
+  {
+  "id":"gromgelato",
+  "name":"GROM Gelato",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"爬完樓要一隻gelato",
+  "opening_hours":"10:30～23:00",
+  "map_url":"https://maps.app.goo.gl/6PEUZ67L6zDfG1Gj7?g_st=ic"
+  },
+  {
+  "id":"battisterodisangiovanni",
+  "name":"佛羅倫斯聖若翰洗者洗禮堂 Battistero di San Giovanni",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"百花教堂套票景點之一。建於4世紀的羅馬式建築，外表鑲嵌著白綠兩色大理石，八角形洗禮堂與百花大教堂正門相對",
+  "opening_hours":"8:30～19:30",
+  "tips":["必看：金色馬賽克鑲嵌壁畫天花板","目前建築東邊的天堂之門是複製品"],
+  "map_url":"https://maps.app.goo.gl/HXQ1akgB2kx2mYN86?g_st=ic"
+  },
+  {
+  "id":"cafedelapaix",
+  "name":"Cafe De La Paix",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"咖啡店",
+  "opening_hours":"8:00～01:00",
+  "map_url":"https://maps.app.goo.gl/ab2JiP3c4WAyZq1d8?g_st=ic"
+  },
+  {
+  "id":"museodell'operadelduomodifirenze",
+  "name":"主教座堂博物館 Museo dell'Opera del Duomo di Firenze",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"百花教堂套票景點之一。全球最重要的雕塑收藏博物館之一，有冷氣跟椅子",
+  "opening_hours":"8:30～18:00",
+  "tips":["一樓天堂廳：天堂之門 by 吉貝帝Lorenzo Ghiberti，青銅鍍金原作 （可以走到二樓的走廊，看天堂之門的細節），門上的浮雕都是在刻畫舊約聖經的故事。米開朗基羅的《班迪尼聖殤 Pietà Bandini》原作雕塑，是米開朗基羅晚年幫自己的墳墓設計的。唐納泰羅的《三位一體》雕刻","二樓：聖母百花大教堂圓頂模型，模型內部也有畫出壁畫《最後的審判》的細節。走到三樓圓頂觀景台展區有天窗，可以看到百花教堂圓頂本人。","三樓：有數位展區，螢幕展示聖若望洗禮堂的360度全景透視，可以看到馬賽克拼貼的細節。","四樓：有室外展區，可以跟聖母百花教堂圓頂合照"],
+  "map_url":"https://maps.app.goo.gl/ZwAYhYfAhA7uWsuMA?g_st=ic"
+  },
+  {
+  "id":"loscudo",
+  "name":"Lo Scudo",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"義大利麵、牛排、披薩",
+  "opening_hours":"11:00～23:00",
+  "map_url":"https://maps.app.goo.gl/X2s1mXqMEeD35qQ6A?g_st=ic"
+  },
+  {
+  "id":"pegnadal1860",
+  "name":"Pegna dal 1860",
+  "type":"store",
+  "tags":["商店"],
+  "description":"百年老字號義大利伴手禮店，賣雜貨、零食等",
+  "opening_hours":"10:00～19:00",
+  "map_url":"https://maps.app.goo.gl/sP86kj7bAu8TFwnM7?g_st=ic"
+  },
+  {
+  "id":"bargello",
+  "name":"巴杰羅美術館 Museo Nazionale del Bargello",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"全義大利最重要、蒐藏最頂級的雕塑博物館",
+  "opening_hours":"08:15～18:50",
+  "tips":["可以用firenze card","建於1255，原本是市政長官府，後來變成警察總部與監獄，內部庭院在歷史上曾是執行死刑的場所。","必看1:米開朗基羅《酒神巴庫斯》（Bacco）（在羅馬受到羅馬帝國古遺蹟到啟發，21歲時創作的第一件超過2公尺的大型作品，被認為是羅馬文藝復興的最佳代表作）、《聖母子》，主要放在一樓","必看2:多那太羅《大衛像》（David）是文藝復興時期第一尊獨立的青銅裸體雕像，主要作品在二樓"],
+  "map_url":"https://maps.app.goo.gl/QGkvAuzGZ57YycF4A?g_st=ic"
+  },
+  {
+  "id":"fondazionefrancozeffirellionlus",
+  "name":"Fondazione Franco Zeffirelli Onlus",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"主要展示義大利大師級電影與歌劇導演兼服裝設計師弗蘭科·澤菲雷里（Franco Zeffirelli） 70 年職業生涯的藝術結晶，包含 300 多件珍貴的舞台設計草圖、服裝原稿、戲服模型以及電影劇照。",
+  "opening_hours":"10:00～18:00",
+  "tips":["可以用firenze card"],
+  "map_url":"https://maps.app.goo.gl/YyejHr3dRhg6FKjW8?g_st=ic"
+  },
+  {
+  "id":"vivoli",
+  "name":"Vivoli",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"gelato",
+  "opening_hours":"8:00～21:00",
+  "map_url":"https://maps.app.goo.gl/6wwxP2CpNMAEApDn6?g_st=ic"
+  },
+  {
+  "id":"starchickengourmet",
+  "name":"StarChicken Gourmet",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"炸雞店，評價很高",
+  "opening_hours":"18:00～22:00",
+  "map_url":"https://maps.app.goo.gl/cHG9xemTvzBjKSWq9?g_st=ic"
+  },
+  {
+  "id":"fornobecagli",
+  "name":"Forno Becagli",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"早餐，麵包店",
+  "opening_hours":"6:30～20:00",
+  "map_url":"https://maps.app.goo.gl/Hiyy29Giz53f2WBg8?g_st=ic"
+  },
+  {
+  "id":"shakecafé",
+  "name":"Shake Café",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"早餐，咖啡店",
+  "opening_hours":"7:30～19:00",
+  "map_url":"https://maps.app.goo.gl/UC5vMeoTHFff7iXy7?g_st=ic"
+  },
+  {
+  "id":"galleriadell’accademiadifirenze",
+  "name":"學院美術館 Galleria dell’Accademia di Firenze",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"佛羅倫斯必到景點",
+  "opening_hours":"週二到週日8:15～18:50",
+  "tips":["已電話預約早上8:15，預約代碼:23725008，名字:LU","先拿著預約碼跟firenze card去美術館斜對面的官方售票處My Accademia換取實體票","換好票後，橫過馬路前往美術館門口的Red Point預約專屬通道排隊安檢入場","必看：米開朗基羅《大衛David》 《聖殤像 The Palestrina Pietà》《奴隸 Quattro Prigioni》、利比&貝魯吉諾 Pengino 《御下聖體 Deposition From the Cross》"],
+  "map_url":"https://maps.app.goo.gl/UgXzQgWVZq9K5LHV7?g_st=ic"
+  },
+  {
+  "id":"alagrandecaffècaffrosanò",
+  "name":"Ala Grande Caffè (Caffè Rosanò)",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"咖啡店，吃點心喝咖啡修整一番",
+  "opening_hours":"9:00～14:30",
+  "map_url":"https://maps.app.goo.gl/1996pyZkDqXkMxEP6?g_st=ic"
+  },
+  {
+  "id":"museodisanmarco",
+  "name":"聖馬可博物館 Museo di San Marco",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"保存了大量早期文藝復興畫家安傑利科修士(Fra Angelico)的壁畫作品，被認為是世界上收藏他作品最完整的地方",
+  "opening_hours":"8:30～13:50",
+  "tips":["使用 Firenze Card 可直接入場","不需要事先預約","有快速通道(Fast Track)","現場會安排到最近可入場時段","最後入場時間約為 12:45","清淨、遊客少很多","可以近距離感受修道院生活","壁畫幾乎都還在原始位置"],
+  "map_url":"https://maps.app.goo.gl/54C863xBd22i3cSX9?g_st=ic"
+  },
+  {
+  "id":"mercatocentrale",
+  "name":"中央市場Mercato Centrale",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"當地著名美食廣場市場",
+  "tips":["1F：在地市場氛圍看食材","2F：熟食區超多攤，通常開到晚間（店家營業時間略有不同，但建議中午去人潮較舒適","必吃：Nerbone 牛肚包、手工義大利麵、T骨牛排切片、海鮮炸物","外圍攤販區：看皮件、圍巾、在地小物"],
+  "map_url":"https://maps.app.goo.gl/p4WJEZuihZ9vbGTt8?g_st=ic"
+  },
+  {
+  "id":"danerbone",
+  "name":"Da Nerbone",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"佛羅倫斯必吃牛肚包名店，位於中央市場",
+  "opening_hours":"8:30～15:00",
+  "map_url":"https://maps.app.goo.gl/4g7NVDU8qBfpReYY7?g_st=ic"
+  },
+  {
+  "id":"bambitrippaelampredotto",
+  "name":"Bambi Trippa e Lampredotto",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"也很有名好吃的牛肚包名店，沒有nerbone那麼排",
+  "opening_hours":"7:00～15:00",
+  "map_url":"https://maps.app.goo.gl/h2rLaVQCNnBZxeQx6?g_st=ic"
+  },
+  {
+  "id":"pescheriasugarello",
+  "name":"Pescheria Sugarello",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"炸海鮮和各種海鮮料理",
+  "opening_hours":"9:00～14:30",
+  "map_url":"https://maps.app.goo.gl/KPrtuUTpodgDYKHD8?g_st=ic"
+  },
+  {
+  "id":"palazzomediciriccardi",
+  "name":"美第奇 - 里卡迪宮 Palazzo Medici Riccardi",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"美第奇家族委託米開羅佐Michelozzo建於15世紀的的私人宮殿",
+  "opening_hours":"9:00～19:00",
+  "tips":["可用firenze card","三王禮拜堂（Cappella dei Magi）:牆上是 Benozzo Gozzoli 的《三王來朝》系列壁畫，看似宗教故事，其實偷偷把許多美第奇家族成員畫進去","文藝復興中庭:由 Michelozzo 設計的庭院是文藝復興建築的重要範例，氣氛非常典雅安靜","鏡廳（Galleria di Luca Giordano）:後來里卡迪家族買下宮殿後，加入大量巴洛克風格裝飾。天花板上是 Luca Giordano 的巨幅濕壁畫《美第奇家族的榮耀》，非常華麗。"],
+  "map_url":"https://maps.app.goo.gl/BT4NW1VK4Y7T5DcF6?g_st=ic"
+  },
+  {
+  "id":"cappellemedicee",
+  "name":"美第奇小聖堂 Cappelle Medicee",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"梅第奇家族的陵墓",
+  "opening_hours":"8:15～18:50",
+  "tips":["可用firenze card","王子小聖堂（Cappella dei Principi）：一座極其宏偉的八角形圓頂大廳，牆面全由無價的彩色大理石、花崗岩及寶石鑲嵌而成","新祭衣間（Sagrestia Nuova）:是米開朗基羅設計的，幕上有四尊雕像分別被命名為白晝、黑夜、黎明、黃昏","地下墓室（Crypt）：這裡安放著美第奇家族歷代托斯卡納大公及其家屬的棺木，包含著名的科西莫一世（Cosimo I）"],
+  "map_url":"https://maps.app.goo.gl/77ALzudLYKugdjFR9?g_st=ic"
+  },
+  {
+  "id":"anticagelateriafiorentina",
+  "name":"Antica Gelateria Fiorentina",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"gelato",
+  "opening_hours":"12:30-10:30",
+  "map_url":"https://maps.app.goo.gl/2z8mmKSn9yKr7hD87?g_st=ic"
+  },
+  {
+  "id":"strozzi",
+  "name":"斯特羅齊宮 Palazzo Strozzi",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"美第奇的宿敵豪宅：由當時實力雄厚的銀行家飛利浦·斯特羅齊（Filippo Strozzi）於 1489 年下令興建。為了在聲勢上壓過美第奇家族，這座宮殿的規模甚至比美第奇-里卡迪宮還要更為宏大",
+  "opening_hours":"10:00～20:00",
+  "tips":["可用firenze card，常設展跟特展都可以看","佛羅倫斯最頂尖的當代與現代藝術展覽中心","目前特展是美國現代抽象表現主義大師馬克·羅斯科（Mark Rothko）在義大利極為罕見的大型回顧特展","宮殿正中央的露天拱廊中庭很漂亮"],
+  "map_url":"https://maps.app.goo.gl/9wqsoBrG7jbip7ZH6?g_st=ic"
+  },
+  {
+  "id":"giuntiodeon",
+  "name":"Giunti Odeon - Cinema",
+  "type":"store",
+  "tags":["商店"],
+  "description":"一間結合百年劇院與書店的店",
+  "opening_hours":"10:00～20:30",
+  "tips":["有免費座椅可以吹冷氣看影片。","晚上9點之後是電影院，全票€12"],
+  "map_url":"https://maps.app.goo.gl/6kCrDJfQVq7ZohaT6?g_st=ic"
+  },
+  {
+  "id":"ristorantemorellino",
+  "name":"Ristorante Il Morellino",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"可定位，評價高義大利菜",
+  "opening_hours":"12:00-22:30",
+  "map_url":"https://maps.app.goo.gl/Q1TrWKA8RHV6gWM6A?g_st=ic"
+  },
+  {
+  "id":"pontesantatrinita",
+  "name":"聖三一橋 Ponte Santa Trinita",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"漂亮橋，看夕陽夜景",
+  "map_url":"https://maps.app.goo.gl/9hjndcouKsWBVLNe9?g_st=ic"
+  },
+  {
+  "id":"mercatodisant’ambrogio",
+  "name":"Mercato di Sant’Ambrogio",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"佛羅倫斯最熱鬧、最道地的市集之一。它分為室內和室外兩部分。室內市場匯集了琳瑯滿目的熟食店、美食攤位和當地餐廳，提供新鮮道地的特色美食。戶外市場則以新鮮水果蔬菜為主，還有眾多攤販販售從服飾配件到鞋履和家居用品等各種商品。這裡是享用美食、體驗當地文化和淘到物美價廉商品的絕佳去處。",
+  "map_url":"https://maps.app.goo.gl/9hjndcouKsWBVLNe9?g_st=ic"
+  },
+  {
+  "id":"caffetteriadelvecchiomercato",
+  "name":"Caffetteria del Vecchio Mercato",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"市場內咖啡廳，有咖啡、麵包等，當早餐",
+  "opening_hours":"07:00–14:00",
+  "map_url":"https://maps.app.goo.gl/r8WZEf3JR4SseuS19"
+  },
+  {
+  "id":"iltrippaiodisant'ambrogio",
+  "name":"Il Trippaio Di Sant'Ambrogio",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"市場內餐廳，有賣牛肚包，評價很高",
+  "opening_hours":"07:00–14:00",
+  "map_url":"https://maps.app.goo.gl/vKfMWWYFKaLihCML7"
+  },
+  {
+  "id":"basilicadisantacrocedifirenze",
+  "name":"聖十字聖殿 Basilica di Santa Croce di Firenze",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"新哥德式的聖方濟教堂，裡面有好幾個附屬禮拜堂。知名特色為喬托所繪的壁畫，以及埋葬米開朗基羅、但丁（衣冠塚）、佩脫拉克、伽利略、馬基維利、唐納太羅、羅西尼等名人",
+  "tips":["可以用firenze card","教堂中庭有一間巴茲 Pazzi家族的禮拜堂，是布魯內列斯基設計，唐納太羅製作細部","冷知識 : Pazzi家族跟梅第奇家族是死對頭"],
+  "opening_hours":"週一到週六9:30～17:30、週日12:30～17:45",
+  "map_url":"https://maps.app.goo.gl/dMqHcDMdXhJGVhC7A"
+  },
+  {
+  "id":"scuoladelcuoios.r.l.",
+  "name":"Scuola del Cuoio S.r.l.",
+  "type":"store",
+  "tags":["商店"],
+  "description":"歷史悠久的知名皮革學校，有工匠現場手工製作的包包、皮帶和夾克",
+  "opening_hours":"10:00–18:30",
+  "map_url":"https://maps.app.goo.gl/DGHTGHHdbZamZFRf9"
+  },
+  {
+  "id":"gelateriadeineri",
+  "name":"Gelateria dei Neri",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"gelato",
+  "opening_hours":"10:30–00:00",
+  "map_url":"https://maps.app.goo.gl/wN81Dn5BN9dg9Ybw6"
+  },
+  {
+  "id":"all’anticovinaio",
+  "name":"All’Antico Vinaio",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"47,042多則google評論，4.5顆星佛卡夏三明治店，感覺很厲害",
+  "opening_hours":"10:00–22:00",
+  "map_url":"https://maps.app.goo.gl/tEMfbMF67YQ9G5RD9"
+  },
+  {
+  "id":"pizzanapoli1955",
+  "name":"Pizza Napoli 1955",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"pizza店，價格落在€10-20",
+  "opening_hours":"12:00–22:00",
+  "map_url":"https://maps.app.goo.gl/6fGAvQD2msJnRErx9"
+  },
+  {
+  "id":"galleriadegliuffizi",
+  "name":"烏菲茲美術館 Galleria degli Uffizi",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"原是由瓦薩利建造的辦公室，後來改成麥迪奇家族的收藏展覽室",
+  "tips":["已線上免費預約下午2點入場，拿著電子預約票跟firenze card去3號門換實體票，就能去優先通道安檢入場了","可以用firenze card","波提切利：《維納斯的誕生》《春神 La Primavera》《誹謗 The Calumny of Apelles》","拉斐爾 RaffaelloSanzio：《金翅雀的聖母 Madonna of the Goldfinch》《年輕自畫像Self-portrait》","卡拉瓦喬Caravaggio：《酒神 Bacchus》","提香Vecellio Tiziano：《弗蘿拉Flora》《烏比諾的維納斯The Venus of Urbino》","達文西 Leonardo da Vinci：《三博士來朝Adorazionedei Magi》","西方繪畫之父&文藝復興開創者-喬托Giotto di Bondone：《莊嚴聖母 Maestà》","法蘭契斯卡Piero Della Francesca：《烏比諾公爵及夫人 Diptych of the Duchess and Duke of Ubino 》","利比 Filippo Lippi：《聖母、聖嬰和天使 Madonna with child and two angles》","米開朗基羅：《聖家族 Doni Tondo及畫框》","杜勒Albrecht Dürer：《賢士來朝 Adoration of the Magi》","貝里尼 Giovanni Bellini：《神聖的預言 Sacred Allergony》","林布蘭 Rembrandt van Rign：《自畫像》","魯本斯 Rubens：《伊莎貝拉．班達畫像 Portrait of Isabella Brandt》"],
+  "opening_hours":"週二至週日8:15～18:30",
+  "map_url":"https://maps.app.goo.gl/ZNreb8Gje7S6hUqUA"
+  },
+  {
+  "id":"piazzadellasignoria",
+  "name":"領主廣場 Piazza della Signoria",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"義大利佛羅倫斯的心臟地帶。這座L型廣場自中世紀以來即是佛羅倫斯的政治與歷史中心，被譽為免費的露天博物館",
+  "tips":["海神噴泉Fontana di Nettuno：阿曼迪那（Ammannati）的作品，白色大理石的海神四周被青銅造型的仙子跟牧神包圍","傭兵敞廊Loggia dei Lanzi：最早用來給舊宮的外賓跟官員遮風擋雨，可看切里尼的《佩賽歐》（Perseo），描述帕休斯斬下妖怪梅杜莎的頭"],
+  "map_url":"https://maps.app.goo.gl/ioJ6XBuk7LgvRutV6"
+  },
+  {
+  "id":"spezieriepalazzovecchio",
+  "name":"Spezierie Palazzo Vecchio",
+  "type":"store",
+  "tags":["商店"],
+  "description":"香水店",
+  "opening_hours":"10:00–19:30",
+  "map_url":"https://maps.app.goo.gl/Z9rFidsY9iLFE16m9"
+  },
+  {
+  "id":"rivoire",
+  "name":"Rivoire",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"百年咖啡廳，招牌是熱巧克力，站著喝便宜很多",
+  "opening_hours":"08:00–22:00",
+  "map_url":"https://maps.app.goo.gl/b5jyWC2VVaTmN2ZR7"
+  },
+  {
+  "id":"palazzovecchio",
+  "name":"舊宮 Palazzo Vecchio",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"哥德式（岡比歐）+文藝復興風格（瓦薩利）的建築，以前是梅第奇家族的府邸，後來碧提宮建成後，舊宮才成為市政廳",
+  "tips":["可以用firenze card，並且可以在app上用卡片代碼進行時段預約，或是現場劃可以入場的時段","可登塔，看屋頂樑架與城景，但這必須預約","內部廳室富麗堂皇，拍照很美，「五百人大廳 Salone dei Cinquecento」是舊宮最值得看的地方，天花板跟牆上裝飾著滿滿瓦薩利跟他學生的濕壁畫，描述佛羅倫斯戰勝比薩跟西恩納的戰役。"],
+  "opening_hours":"舊宮9:00～19:00（週四到14:00）、高塔週一～週五9:00～17:00（週四到14:00）",
+  "map_url":"https://maps.app.goo.gl/FHf3N4NFxJr6CXAC7"
+  },
+  {
+  "id":"osteriadell'orcagna",
+  "name":"Osteria dell'Orcagna",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"晚餐 - pizza、義大利麵、提拉米蘇，可預定",
+  "opening_hours":"10:30–00:00",
+  "map_url":"https://maps.app.goo.gl/ap37tnwxzud13vpq8"
+  },
+  {
+  "id":"oziobistro",
+  "name":"Òzio Bistro",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"早午餐，一盤一盤那種早午餐!!",
+  "opening_hours":"7:30–19:00",
+  "map_url":"https://maps.app.goo.gl/8szqCKv3Zpenibz9A"
+  },
+  {
+  "id":"ognissanti",
+  "name":"佛羅倫斯諸聖教堂 Chiesa di San Salvatore in Ognissanti",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"波提且利長眠之地、喬托的巨大十字架",
+  "tips":["免費的","教堂隔壁的修道院食堂（Cenacolo di Ognissanti）收藏了基爾蘭戴奧極為震撼的《最後的晚餐》濕壁畫（據說達文西曾在此借鑑靈感）"],
+  "opening_hours":"09:00–13:00",
+  "map_url":"https://maps.app.goo.gl/BdBEFu3JndLTW8Z78"
+  },
+  {
+  "id":"hzero",
+  "name":"Museo HZERO",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"鐵路現代私人博物館",
+  "tips":["不能用fienze card，要另外買票","全歐最大的鐵路模型之一：展館核心是一個佔地 280 平方公尺（縮小比例 1/87 的 H0 軌距）的巨大微型鐵路模型。","現場有結合縮小版義大利與歐洲城鎮、高山森林及海岸景觀的晝夜燈光秀，搭配栩栩如生的環境音效，十分療癒。","老電影院改建"],
+  "opening_hours":"10:00–19:00",
+  "map_url":"https://maps.app.goo.gl/WM4VgS9bLduU7G8W7"
+  },
+  {
+  "id":"museoferragamo",
+  "name":"菲拉格慕博物館 Museo Ferragamo",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"意大利經典鞋匠Salvatore Ferragamo的博物館，館內收藏了超過 100,000 雙鞋履模型與歷史珍品，包含 1930 年代的軟木塞楔形鞋、1947 年的 F 形鞋跟以及透明尼龍線隱形高跟鞋等",
+  "tips":["可以用firenze card","位於13 世紀宮殿:費羅尼-斯皮尼宮（Palazzo Spini Feroni）地下室","展出創辦人為奧黛麗·赫本、瑪麗蓮·夢露、葛麗泰·嘉寶等傳奇影星設計的珍貴歷史鞋款與影像紀錄。"],
+  "opening_hours":"10:30–19:30",
+  "map_url":"https://maps.app.goo.gl/MnUEbY7yYFXrAfdS6"
+  },
+  {
+  "id":"davanzati",
+  "name":"達萬紮蒂宮 Museo di Palazzo Davanzati",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"建於 14 世紀的歷史宮殿，現為佛羅倫斯老房子博物館，向世人展示中世紀至文藝復興時期富裕商人的真實生活場景。",
+  "tips":["可以用firenze card","由富裕的羊毛布商達維齊家族（Davizzi）於 1350 年左右建造完成。1516 年售予巴托利尼家族（Bartolini），隨後於 1578 年被佛羅倫斯歷史學家兼文學家 Bernardo Davanzati 買下，從此得名並在正門掛上家族徽章。1904 年由古董商 Elia Volpi 購入並精心修復，搜集了大量中世紀與文藝復興時期的家具擺設，恢復其昔日風采。"],
+  "opening_hours":"08:15–18:50",
+  "map_url":"https://maps.app.goo.gl/b7agfdTsPAYnT8Yo8"
+  },
+  {
+  "id":"perchéno",
+  "name":"Perché no!",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"gelato",
+  "opening_hours":"11:00–20:00",
+  "map_url":"https://maps.app.goo.gl/QKyL39aAhQffkju4A"
+  },
+  {
+  "id":"orsanmichele0725",
+  "name":"佛羅倫薩聖彌額爾教堂兼博物館 Chiesa e Museo di Orsanmichele",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"融合宗教、市民經濟與文藝復興藝術的獨特立體建築，裡面畫滿了中世紀壁畫",
+  "tips":["可以用firenze card","這裡最初不是教堂，而是建於 1337 年的穀物市場與儲藏穀倉。直到 14 世紀末期才被改建為佛羅倫斯各大商業行會的專屬教堂，其外牆的 14 個雕塑壁龕更被譽為「文藝復興初期雕塑的露天美術館」","為了避免風化破壞，目前外牆上的所有雕像均為複製品。除了唐納太羅的《聖喬治》真跡被移至巴傑羅美術館外，其餘 13 尊文藝復興大師真跡皆存放在教堂樓上的博物館中"],
+  "opening_hours":"08:30–18:30",
+  "map_url":"https://maps.app.goo.gl/MfoA1bRRQ3LTw9FA7"
+  },
+  {
+  "id":"chianineria",
+  "name":"Trattoria Dalloste Chianineria",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"有名的牛排館，可以預約",
+  "opening_hours":"11:00–22:30",
+  "map_url":"https://maps.app.goo.gl/vpXardxEXciEAKRg7"
+  },
+  {
+  "id":"s.forno",
+  "name":"S.forno",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"早餐 - 看起來很讚的麵包店，可以內用",
+  "opening_hours":"08:00–19:30",
+  "map_url":"https://maps.app.goo.gl/LXzEobi9MjGVWy9F7"
+  },
+  {
+  "id":"basilicadisantospirito",
+  "name":"佛羅倫斯聖神大殿 Basilica di Santo Spirito",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"外觀素雅的 15 世紀教堂，由布魯內萊斯基設計，有著充滿藝術氣息的華麗內部裝潢，以及巴洛克式聖壇",
+  "tips":["本身免費，但教堂內部的「聖器收藏室」（內有著名的米開朗基羅十字架）需額外付費約 €2"],
+  "opening_hours":"11:30–13:30/15:00–18:00",
+  "map_url":"https://maps.app.goo.gl/R4Lxj9pPyY6KKMq98"
+  },
+  {
+  "id":"mancusogelatiitaliani1920",
+  "name":"Mancuso Gelati Italiani 1920",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"gelato、affogato、熱巧克力",
+  "opening_hours":"11:00–22:00",
+  "map_url":"https://maps.app.goo.gl/M9ATkdxigoVpGmXW8"
+  },
+  {
+  "id":"palazzopitti",
+  "name":"彼提宮 Palazzo Pitti",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"由佛羅倫斯銀行家盧卡·皮蒂（Luca Pitti）於 1458 年開始建造，1549 年被美第奇家族買下，成為該家族的主要居所。曾是托斯卡尼大公國、波旁家族及義大利國王的王宮。現在是有很多博物館的複合式藝廊。",
+  "tips":["兌換憑證：如果持有firenze card，不能直接刷卡進場，需要先至彼提宮內的阿曼納提中庭（Ammannati Courtyard）領取參觀憑證","票券效期：該憑證必須妥善保存，並在整張卡片的有效期限內使用","參觀範圍：持卡可參觀彼提宮內的博物館群與波波里花園","有一個大公寶庫（Grand Dukes' Treasury）：展出美第奇家族收藏的貴重金銀珠寶、水晶和半寶石"],
+  "opening_hours":"08:15–18:30",
+  "map_url":"https://maps.app.goo.gl/EtVcisLD1KM9kHZV8"
+  },
+  {
+  "id":"galleriapalatina",
+  "name":"帕拉提納美術館 Galleria Palatina",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"收藏大量文藝復興大師（如拉斐爾、提香、魯本斯）的畫作",
+  "tips":["想看拉斐爾 <椅子上的聖母> <戴面紗的少女>"],
+  "opening_hours":"08:30–19:00",
+  "map_url":"https://maps.app.goo.gl/m1TKAARcGwCNF3U27"
+  },
+  {
+  "id":"galleriad’artemoderna",
+  "name":"近代美術館 Galleria d’Arte Moderna",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"展示 18 世紀末至 20 世紀初的義大利藝術品",
+  "opening_hours":"08:30–18:30",
+  "map_url":"https://maps.app.goo.gl/zvQC5HAFYP9GDoX67"
+  },
+  {
+  "id":"museumofcostumeandfashion",
+  "name":"Museum of Costume and Fashion",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"展示18~20世紀宮廷服裝，是義大利最重要的時尚博物館",
+  "opening_hours":"08:30–18:30",
+  "map_url":"https://maps.app.goo.gl/5NLnqySqrCQpJ5AF9"
+  },
+  {
+  "id":"giardinodiboboli",
+  "name":"波波里花園 Giardino di Boboli",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"義大利宮廷花園",
+  "tips":["布翁塔倫蒂石洞（Buontalenti Grotto）：花園最具代表性的建築。外觀仿天然岩洞，內部裝飾著鐘乳石、貝殼以及精美的壁畫與雕像。","露天劇場（The Amphitheatre）：位於宮殿正後方，最初是為了美第奇家族的慶典與戲劇表演而建。中央矗立著一座來自古埃及的方尖碑。","海神噴泉（Neptune's Fountain）：由佛羅倫斯人戲稱為「叉子噴泉」，中央有海神波賽頓手持三叉戟的英姿。","騎士花園（Knight's Garden）：位於花園頂端，這裡種滿玫瑰，且居高臨下，是俯瞰佛羅倫斯鄉村風景與托斯卡尼丘陵的最佳觀景點。","絲柏大道（Viottolone）：一條由高大絲柏樹組成的林蔭大道，兩側排列著古典雕像，一直延伸到人工島噴泉（Isolotto）。"],
+  "opening_hours":"08:15–19:10",
+  "map_url":"https://maps.app.goo.gl/KEe1SUY5tmvZPLuc8"
+  },
+  {
+  "id":"chioscoaibardini",
+  "name":"Chiosco Ai Bardini",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"白日看風景喝酒的秘密景點餐廳",
+  "map_url":"https://maps.app.goo.gl/FXxHVh2D1ab1rYDY6"
+  },
+  {
+  "id":"giardinobardini",
+  "name":"巴爾迪尼花園 Giardino Bardini",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"佛羅倫斯的一座文藝復興式優雅庭園，坐落在聖尼可羅區（San Niccolò）的山坡上。花園最高處視野極佳，能以近乎平視的角度完美捕捉聖母百花大教堂的圓頂、老橋與阿諾河畔風光，被公認為俯瞰佛羅倫斯天際線的最佳觀景台。",
+  "tips":["可以用firenze card","巴爾迪尼花園與波波里花園有步道相通"],
+  "opening_hours":"10:00–19:30",
+  "map_url":"https://maps.app.goo.gl/msCrD1KvK8eB14KJ9"
+  },
+  {
+  "id":"piazzalemichelangelo",
+  "name":"米開朗基羅廣場 Piazzale Michelangelo",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"佛羅倫斯必去看夕陽聖地",
+  "map_url":"https://maps.app.goo.gl/R2jkfmk8utVsHHKf8"
+  },
+  {
+  "id":"mozza&bollicine",
+  "name":"Mozza & bollicine Firenze",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"吃晚餐~ 有檸檬酒跟朝鮮薊，可以定位",
+  "opening_hours":"12:30–22:30",
+  "map_url":"https://maps.app.goo.gl/7hUpmDdHeWgH94RKA"
+  },
+  {
+  "id":"cantinadel",
+  "name":"Cantina del Gelato Il Gelato Artigianale",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"gelato",
+  "opening_hours":"11:15–23:00",
+  "map_url":"https://maps.app.goo.gl/jrxzamrqh1rCa3kJA"
+  },
+  {
+  "id":"pontevecchio",
+  "name":"老橋 Ponte Vecchio",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"必去景點之一。如詩如畫的中世紀拱形河橋，起源於羅馬，兩側有珠寶和紀念品商店",
+  "map_url":"https://maps.app.goo.gl/uRyKxQUYe8JXSowf7"
+  },
+  {
+  "id":"borgoapartment0727",
+  "name":"Borgo Apartment by Mamo Florence",
+  "type":"accommodation",
+  "tags":["住宿"],
+  "description":"早上8點包車接送會來住宿接我們",
+  "tips":["包車時間是早上8點到晚上6點","已經在KKDay上付款，不用再另外付費","司機前一天會用Wechat聯絡我們","早餐預計去greve in chianti吃，車程1個小時，肚子餓先吃餅乾"],
+  "map_url":"https://maps.app.goo.gl/5cLyoAcpnWG9Jbah6"
+  },
+  {
+  "id":"piazzamatteotti",
+  "name":"馬特奧蒂廣場 Piazza Matteotti",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"小鎮的核心，標誌性的三角形廣場周圍環繞著拱廊。",
+  "tips":["預計9點抵達"],
+  "map_url":"https://maps.app.goo.gl/HMTLnDJwL7JHEvcy9"
+  },
+  {
+  "id":"pasticceriachianti",
+  "name":"Pasticceria Chianti",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"吃早餐~ 午餐會大概下午3點吃，早餐吃飽一點",
+  "opening_hours":"06:30-19:00",
+  "map_url":"https://maps.app.goo.gl/TMbpLN2GwXH7dAUH7"
+  },
+  {
+  "id":"labottegadelpane",
+  "name":"LA BOTTEGA DEL PANE",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"麵包店",
+  "opening_hours":"07:00–13:00",
+  "map_url":"https://maps.app.goo.gl/NwyGbMwrpAAjU3cEA"
+  },
+  {
+  "id":"cosedeborgo",
+  "name":"Cose del Borgo | Arredo Casa, Tessuti e Lino Fiorentino",
+  "type":"store",
+  "tags":["店鋪"],
+  "description":"手工藝品店，有網頁商店，東西都很漂亮",
+  "opening_hours":"09:00–13:00",
+  "map_url":"https://maps.app.goo.gl/92CnoWPwsWzxaAHX9?g_st=ic"
+  },
+  {
+  "id":"antinorinelchianticlassico",
+  "name":"安蒂諾里酒莊",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"義大利最具傳奇色彩的頂級釀酒家族，擁有超過 600 年、傳承 26 代的輝煌歷史。2012年蓋好的安蒂諾里酒莊曾榮獲 「世界最佳葡萄園」（World's Best Vineyards）第一名殊榮。整座建築直接嵌入奇揚地的山坡中，屋頂覆蓋著葡萄藤，與周圍丘陵融為一體。內部設計利用自然重力流（Gravity-flow）輸送葡萄與酒液，減少機械泵抽對酒質的破壞；地下酒窖利用地溫維持恆溫恆濕，極具環保與節能效益。家族旗下的 Tignanello（天娜露） 和 Solaia（索拉雅） 是全球收藏家爭相追捧的頂級膜拜酒。",
+  "tips":["從佛羅倫斯過來車程約30~40分鐘","有預約品酒導覽行程，12:30開始，活動15分鐘前要到櫃檯報到。整個導覽約1個半小時，會介紹酒莊歷史跟品三款酒"],
+  "opening_hours":"10:00-17:30",
+  "map_url":"https://maps.app.goo.gl/ukDM6gs58DMnBqso6"
+  },
+  {
+  "id":"gelateriadondoli",
+  "name":"Gelateria Dondoli",
+  "type":"restaurant",
+  "tags":["冰淇淋"],
+  "description":"在多屆「義式冰淇淋世界盃」中奪下世界冠軍的gelato，4.7顆星",
+  "opening_hours":"09:00-22:00",
+  "map_url":"https://maps.app.goo.gl/ram1UVxDwSVaazQG7"
+  },
+  {
+  "id":"vinainofiorenza",
+  "name":"Vinaino Fiorenza",
+  "type":"restaurant",
+  "tags":["三明治"],
+  "description":"google map 4.9 顆星的三明治，因為在聖吉米只有兩個小時可以逛 (5點要回程)，吃三明治比較快",
+  "opening_hours":"10:30-18:00",
+  "map_url":"https://maps.app.goo.gl/Tu3tDP9UozZ1PYFDA"
+  },
+  {
+  "id":"torregrossa",
+  "name":"格羅薩塔 Torre Grossa",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"精華景點，登上塔頂可俯瞰托斯卡尼田園風光",
+  "tips":["登塔的入口位於主教座堂廣場（Piazza del Duomo） 階梯旁的市政宮（Palazzo Comunale）。順著通道走進中庭，再走上階梯穿過平台，即可看到一個結合紀念品店的售票櫃台，在那裡直接購買即可。"],
+  "opening_hours":"10:00-19:30",
+  "map_url":"https://maps.app.goo.gl/Rt2Fw7diuYWqunBJ6"
+  },
+  {
+  "id":"piazzadellacisterna",
+  "name":"水井廣場Piazza della Cisterna",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"精華景點，有個水井在廣場中央，周圍有很多咖啡廳跟市集商店可以逛",
+  "map_url":"https://maps.app.goo.gl/kX1iPGQrXu5xRmBHA"
+  },
+  {
+  "id":"gelateriadell'olmo",
+  "name":"Gelateria dell'Olmo",
+  "type":"restaurant",
+  "tags":["冰淇淋"],
+  "description":"當地人推薦的gelato",
+  "opening_hours":"07:00-22:00",
+  "map_url":"https://maps.app.goo.gl/wBGijhXiS77NY6zv6"
+  },
+  {
+  "id":"letorris.r.l.",
+  "name":"Le Torri s.r.l.",
+  "type":"store",
+  "tags":["商店"],
+  "description":"價位合理又全都是使用義大利當地的皮革製作的義大利皮件店",
+  "opening_hours":"09:00-19:30",
+  "map_url":"https://maps.app.goo.gl/2BXrWonjLMSsEYrW8"
+  },
+  {
+  "id":"trattoriasostanza",
+  "name":"Trattoria Sostanza",
+  "type":"restaurant",
+  "tags":["奶油燉雞"],
+  "description":"奶油燉雞，建議預約",
+  "opening_hours":"19:30-21:45",
+  "map_url":"https://maps.app.goo.gl/NLPF3XcFVpP5GewF6?g_st=ic"
+  },
+  {
+  "id":"indianafirenze",
+  "name":"Taj Palace Ristorante Indian a Firenze",
+  "type":"restaurant",
+  "tags":["印度菜"],
+  "description":"印度菜，評價很高，可預約",
+  "opening_hours":"18:00-23:00",
+  "map_url":"https://maps.app.goo.gl/wRvtxTtGyJjZR14p7?g_st=ic"
+  },
+  {
+  "id":"shoppingday",
+  "name":"市區shopping",
+  "type":"store",
+  "tags":["交通"],
+  "description":"買買買，把信用卡額度刷完",
+  "map_url":"https://maps.app.goo.gl/jGv7DNaGchVDGL9S9"
+  },
+  {
+  "id":"themallfirenzebusstop",
+  "name":"The Mall Firenze Bus Stop",
+  "type":"transportation",
+  "tags":["交通"],
+  "description":"the mall firenze的接駁車站點，車程約40分鐘左右抵達。搭車時跟司機買票",
+  "tips":["firenze > the mall firenze:8:50、9:10、9:30、10:00、11:00、12:00","the mall firenze > firenze:15:00、16:00、17:00、18:00、19:20","來回車票15歐"],
+  "map_url":"https://maps.app.goo.gl/8CPjxMjKy3qq9Pj77"
+  },
+  {
+  "id":"themallfirenze",
+  "name":"The Mall Firenze",
+  "type":"store",
+  "tags":["商店"],
+  "description":"郊外的大型outlet，搭接駁車去。我們去的時候剛好會遇到折扣季!!!而且在購物中心裡就可以先辦理退稅",
+  "opening_hours":"10:00–20:00",
+  "map_url":"https://maps.app.goo.gl/Z7LcGq1GvqJLAPSR7"
+  },
+  {
+  "id":"florenceperetolaairport0729",
+  "name":"佛羅倫斯佩雷托拉機場\nFlorence Peretola",
+  "type":"transportation",
+  "tags":["交通"],
+  "description":"AZ1676。06:25起飛，預計3:30~4:00先到機場",
+  "tips":["坐計程車去機場,可以用apptaxi叫車，或去佛羅倫斯新聖母瑪利亞車站（Stazione di Santa Maria Novella）站前廣場的24 小時排班車輛招呼站","只要同一人在同一家商店消費超過70 歐元就能退稅","旅客離開之前不可以使用要退稅的產品，也不可以移除產品標籤","結帳時記得主動跟店員說要退稅，並填寫「退稅單(Tax Free Form)」，國籍填寫 Taiwan","在店家結帳拿到退稅單時，請務必現場檢查！很多店員會把國籍打錯，最常見的就是被打成China，這樣就不能退稅了","退稅建議退信用卡手續費比較低，約5~15天入帳","!!!!托運行李!!!!裡東西的退稅手續必須在「佛羅倫斯機場」完成，因為我們是行李直掛。","step 1:到航空公司櫃檯辦理登機，秤重並貼上直掛到台灣的行李條。一定要告知地勤裡面有退稅品，請地勤貼完行李條後把大行李箱還給我們","step 2：推著行李前往佛羅倫斯機場的海關辦公室（Customs / Dogana）。出示護照、電子機票（或登機證）、退稅單與大行李箱。海關電子核准（或蓋章）後，直接在海關指定的行李輸送帶將大行李箱送走。","step 3：行李送走後，直接在佛羅倫斯機場的退稅櫃檯（如 Global Blue 等）辦理退款（退信用卡或拿現金）。"],
+  "map_url":"https://maps.app.goo.gl/YbbKi9tjWQ8MeznX8"
+  },
+  {
+  "id":"romefiumicinoairport0729",
+  "name":"羅馬菲烏米奇諾機場\nRome Fiumicino",
+  "type":"transportation",
+  "tags":["交通"],
+  "description":"7:15會先在第一航廈落地，要再去第三航廈轉機，CI76 11:00班機回台灣。!!!!手提行李!!!!裡的東西退稅是要在離開歐盟的最後一個機場（即羅馬機場）辦理退稅手續。",
+  "tips":["轉機時間：T1 → T3步行約 10–15 分鐘，若要出境到市區還要先排海關，且到市區交通單程就要40分鐘，所以就在機場逛免稅店 (羅馬機場的商品會直接扣除 22% 的 VAT增值稅)+退稅最安心便利","可以在第三航廈的管制區內外找VAT Refund藍色方框標示的退稅招牌，並透過自助機台辦理退稅，成功退稅會顯示旅色勾勾。操作方式:選擇語言(可選擇中文) → 掃描護照 → 系統自動載入購物記錄 → 勾選欲退稅的商品 → 選擇退稅方式(信用卡、現金) → 退稅完成 → 若選擇現金會出現退稅現金櫃台指引。","羅馬有自助機台退稅比較方便，建議把免稅商品都放在手提行李，就可以統一到羅馬再退稅"],
+  "map_url":"https://maps.app.goo.gl/p8sDg9JP7UiorDFe7"
+  },
+  {
+    "id":"taoyuaninternationalairportterminal10730",
+    "name":"桃園機場第一航廈",
+    "type":"transportation",
+    "tags":["交通"],
+    "description":"5:45落地，爬回公司當社畜",
+    "map_url":"https://maps.app.goo.gl/eiZf5Wx4ymjWB7zL6"
+  }
+]

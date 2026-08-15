@@ -1,0 +1,74 @@
+[
+  {
+    "day": "intro",
+    "title": "Intro",
+    "places": ["florence","verona","greve","chianti","sangimignano","musttoeat","musttobuy"]
+  },
+  {
+    "day": "day1",
+    "title": "Day 1 - 0718",
+    "places": ["taoyuaninternationalairportterminal10718"]
+  },
+  {
+    "day": "day2",
+    "title": "Day 2 - 0719",
+    "places": ["romefiumicinoairport0719","florenceperetolaairport0719","firenzewelcomecenter","borgoapartment","trattoriacontadino","trattoriadagiorgio","b.ice","smn","basilicadisantamarianovella","firenzesantamarianovella0719","veronaportanuova0719","piccoloatticoportanuova","osteriamiola","istanbuldonerkebab","gelaterialaromanadal1947","wolonristorantecinese","midwest25","arenadiverona"]
+  },
+  {
+    "day": "day3",
+    "title": "Day 3 - 0720",
+    "places": ["veronapass","brunchrepublicverona","café71","saintbernardino","basilicadisanzenomaggiore","pontedicastelvecchio","portaborsari",
+      "piazzaerbe","torredeilamberti","piazzadeisignori","micheleturco1909","osteriaalduca","osteriailbertoldo","complessodelduomodiverona","basilicadisant'anastasia",
+      "portaleoni","gelateriaverona","chiesadisanfermomaggiore","veronaportanuova0720","firenzesantamarianovella0720","phopho","sig.riso","ristorantecineseimpressionechongqing","conadcity"]
+  },
+  {
+    "day": "day4",
+    "title": "Day 4 - 0721",
+    "places": ["caffèbrunelleschi","criptadisantareparata","cattedraledisantamariadelfiore","lebotteghedidonatello","lAnticacantinadelchianti","brunelleschi'sdome","nuvolagelateria","museoleonardodavinci","piazzadellasantissimaannunziata","basilicadellasantissimaanunziata","trattoriazàzà"]
+  },
+  {
+    "day": "day5",
+    "title": "Day 5 - 0722",
+    "places": ["roostercafe","campaniledigiotto","gromgelato","battisterodisangiovanni","cafedelapaix","museodell'operadelduomodifirenze","loscudo","pegnadal1860","fondazionefrancozeffirellionlus","bargello","vivoli","starchickengourmet"]
+  },
+  {
+    "day": "day6",
+    "title": "Day 6 - 0723",
+    "places": ["fornobecagli","shakecafé","galleriadell’accademiadifirenze","alagrandecaffècaffrosanò","museodisanmarco","mercatocentrale","danerbone","bambitrippaelampredotto","pescheriasugarello","palazzomediciriccardi","cappellemedicee","anticagelateriafiorentina","strozzi","giuntiodeon","ristorantemorellino","pontesantatrinita"]
+  },
+  {
+    "day": "day7",
+    "title": "Day 7 - 0724",
+    "places": ["mercatodisant’ambrogio","caffetteriadelvecchiomercato","iltrippaiodisant'ambrogio","basilicadisantacrocedifirenze","scuoladelcuoios.r.l.","gelateriadeineri","all’anticovinaio","pizzanapoli1955","galleriadegliuffizi","piazzadellasignoria","spezieriepalazzovecchio","rivoire","palazzovecchio","osteriadell'orcagna"]
+  },
+  {
+    "day": "day8",
+    "title": "Day 8 - 0725",
+    "places": ["oziobistro","ognissanti","hzero","museoferragamo","davanzati","perchéno","orsanmichele0725","chianineria"]
+  },
+  {
+    "day": "day9",
+    "title": "Day 9 - 0726",
+    "places": ["s.forno","basilicadisantospirito","mancusogelatiitaliani1920","palazzopitti","galleriapalatina","galleriad’artemoderna","museumofcostumeandfashion","giardinodiboboli","chioscoaibardini","giardinobardini","piazzalemichelangelo","mozza&bollicine","cantinadel","pontevecchio"]
+  },
+  {
+    "day": "day10",
+    "title": "Day 10 - 0727",
+    "places": ["borgoapartment0727","piazzamatteotti","pasticceriachianti","labottegadelpane","cosedeborgo","antinorinelchianticlassico","gelateriadondoli","vinainofiorenza","torregrossa","piazzadellacisterna","gelateriadell'olmo","letorris.r.l.","trattoriasostanza","indianafirenze"]
+  },
+  {
+    "day": "day11",
+    "title": "Day 11 - 0728",
+    "places": ["shoppingday","themallfirenzebusstop","themallfirenze"]
+  },
+  {
+    "day": "day12",
+    "title": "Day 12 - 0729",
+    "places": ["florenceperetolaairport0729","romefiumicinoairport0729"]
+  },
+  {
+    "day": "day13",
+    "title": "Day 13 - 0730",
+    "places": ["taoyuaninternationalairportterminal10730"]
+  }
+]

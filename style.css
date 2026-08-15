@@ -1,0 +1,242 @@
+/* ============================================================
+   義大利文藝復興風格色彩配置 (整合優化版)
+   ============================================================ */
+
+/* 基礎設定：羊皮紙與大理石質感 */
+body {
+  font-family: "Georgia", "serif", "Noto Serif TC";
+  margin: 0;
+  padding: 12px;
+  background-color: #f4f1ea; /* 古老羊皮紙色 */
+  background-image: linear-gradient(135deg, #f4f1ea 25%, #ede7da 100%);
+  color: #3e2f28; /* 深焦茶色 */
+}
+
+h1 {
+  text-align: center;
+  font-family: "Times New Roman", serif;
+  letter-spacing: 2px;
+  color: #5d4037;
+  border-bottom: 2px solid #d4af37; /* 佛羅倫斯金邊框 */
+  display: block;
+  width: 100%;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+/* ============================================================
+   分頁與篩選：捲動、區隔與去藍化 (完整替換區塊)
+   ============================================================ */
+
+/* 1. 基礎按鈕設定：徹底去藍化 */
+button {
+  padding: 8px 16px;
+  border: 1.5px solid #c5b358; /* 佛羅倫斯金 */
+  background: #ffffff;
+  color: #3e2f28;             /* 深焦茶色，取代原本的藍色 */
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  font-family: "Georgia", "serif", "Noto Serif TC";
+  font-size: 14px;
+  outline: none;              /* 移除點擊時的藍色外框 */
+  -webkit-tap-highlight-color: transparent; /* 移除手機點擊時的藍色高亮 */
+}
+
+/* 啟動狀態：深色底、淺色字 */
+button.active {
+  background: #5d4037;        /* 深褐色 */
+  color: #f4f1ea;             /* 羊皮紙白 */
+  border-color: #3e2f28;
+}
+
+/* 2. 天數分頁：橫向捲動 + 區隔底色 */
+#tabs {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  gap: 10px;
+  padding: 12px 10px;
+  background: rgba(93, 64, 55, 0.05); /* 極淡褐色背景，做出層次 */
+  border-radius: 8px;
+  margin-bottom: 12px;
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  -webkit-overflow-scrolling: touch;
+}
+
+#tabs button {
+  flex: 0 0 auto;
+  min-width: 70px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* 3. 分類分頁：橫向捲動 + 橢圓形狀 */
+#filters {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  gap: 10px;
+  padding: 8px 4px;
+  margin-bottom: 20px;
+  justify-content: center; /* 項目少時自動置中 */
+}
+
+#filters button {
+  flex: 0 0 auto;
+  border-radius: 20px;     /* 橢圓形，與天數方形做出視覺區隔 */
+}
+
+/* 隱藏捲軸 */
+#tabs::-webkit-scrollbar, 
+#filters::-webkit-scrollbar {
+  display: none;
+}
+
+/* =========================
+   App 主容器
+   ========================= */
+
+#app {
+  margin: 0 auto;
+  padding: 20px 16px;
+  max-width: 480px; /* 稍微放寬以適應現代大螢幕手機 */
+  background: #ffffff;
+  min-height: 100vh;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+/* =========================
+   卡片通用結構
+   ========================= */
+
+.card {
+  border: 1px solid #dcd0ba;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  box-shadow: 0 4px 12px rgba(93, 64, 55, 0.08);
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.card-header {
+  padding: 10px 16px;   /* 縮小上下內距 */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  /* 垂直置中 */
+  min-height: 44px;     /* 給予一個最小高度，防止跳動 */
+  height: auto;         /* 確保高度隨內容伸縮但不過量 */
+}
+
+.card-header h3 {
+  margin: 0 !important; /* 強制移除所有可能的預設外距 */
+  padding: 0 !important;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.2;     /* 非常緊湊的行高，1.2 是黃金比例 */
+  color: #5d4037;
+  white-space: pre-line;/* 識別 \n 並摺疊多餘空格 */
+  text-align: left;
+  flex: 1;              /* 讓標題佔據左側所有剩餘空間 */
+}
+
+.card-type {
+  font-size: 11px;
+  font-weight: bold;
+  margin-left: 10px;    /* 標題與標籤間的距離 */
+  white-space: nowrap;  /* 防止右側標籤換行 */
+  align-self: center;   /* 標籤永遠維持在中間高度 */
+}
+
+.card-details {
+  display: none; 
+  padding: 14px 16px;
+  border-top: 1px dashed #dcd0ba;
+  font-size: 15px;
+  line-height: 1.7;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.card.open .card-details {
+  display: block;
+}
+
+.card-details .map-btn {
+  margin-top: 12px;
+  padding: 12px;
+  background: #5d4037;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* =========================
+   🎨 文藝復興主題配色分類
+   ========================= */
+
+.card-attraction { background: #fffcf2; border-color: #d4af37; }
+.card-attraction .card-header { background: #fdf5d2; }
+.card-attraction .card-type { color: #a67c00; }
+
+.card-restaurant { background: #fef8f6; border-color: #d68a73; }
+.card-restaurant .card-header { background: #fcece8; }
+.card-restaurant .card-type { color: #b34d32; }
+
+.card-transportation { background: #f4f9f8; border-color: #a3c4bc; }
+.card-transportation .card-header { background: #e9f3f1; }
+.card-transportation .card-type { color: #4a7c72; }
+
+
+.card-accommodation { background: #f2f4f7; border-color: #7b8fa6; }
+.card-accommodation .card-header { background: #e4e9f0; }
+.card-accommodation .card-type { color: #4f647d; }
+
+
+.card-shop { background: #f4f3ef; border-color: #4f647a; }
+.card-shop .card-header { background: #e6ebf0; }
+.card-shop .card-type { color: #364a5e; }
+
+/* =========================
+   📱 手機深度優化
+   ========================= */
+
+@media (max-width: 768px) {
+  body { 
+    padding: 0; 
+  }
+  
+  #app { 
+    padding: 12px; 
+    width: 100%; 
+    max-width: none; 
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  h1 { 
+    font-size: 1.4rem; 
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  /* 修正手機上分類按鈕太多時的對齊 */
+  #filters {
+    justify-content: flex-start; /* 手機上統一靠左捲動，防止切斷 */
+    padding-left: 10px;
+  }
+  
+  button {
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+
+  /* 調整卡片在手機上的間距 */
+  .card {
+    margin-bottom: 14px;
+  }
+}
